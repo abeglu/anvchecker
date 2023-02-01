@@ -1,0 +1,16 @@
+[__config__]
+oldver = "github.old_ver.json"
+newver = "github.new_ver.json"
+
+[winterpy]
+source = "github"
+github = "lilydjwg/winterpy"
+
+[nvchecker]
+source = "github"
+github = "lilydjwg/nvchecker"
+
+[serveradmin]
+source = "github"
+github = "innogames/serveradmin"
+use_max_tag = true

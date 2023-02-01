@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  check:
+  Check-github:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,11 +25,11 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y nvchecker
 
       - name: Check versions
-        run: nvchecker -t 3 -c ./config.toml
+        run: nvchecker -t 3 -c ./github.config.toml
 
       - name: Compare versions
         run: |
-          nvcmp -c ./config.toml | tee /tmp/nvcmp_out.txt
+          nvcmp -c ./github.config.toml | tee /tmp/nvcmp_out.txt
           echo 'NV<<EOF' >> $GITHUB_ENV
           cat /tmp/nvcmp_out.txt | sed 's/^/- /' >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
@@ -38,14 +38,54 @@ jobs:
         if: ${{ env.NV }} && github.event_name != 'pull_request'
         uses: peter-evans/create-pull-request@v4
         with:
-          commit-message: Bump report
-          branch: actions_new_version
+          commit-message: Github bump report
+          branch: github_new_version
           delete-branch: true
-          title: 'Bump report'
+          title: 'Github bump report'
           body: |
-            Bump report
+            Github bump report
             ${{ env.NV }}
           labels: |
+            github
+            report
+            automated pr
+          team-reviewers: |
+            owners
+            maintainers
+          draft: false
+
+  Check-container:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install nvchecker
+        run: sudo apt-get update && sudo apt-get install -y nvchecker
+
+      - name: Check versions
+        run: nvchecker -t 3 -c ./container.config.toml
+
+      - name: Compare versions
+        run: |
+          nvcmp -c ./container.config.toml | tee /tmp/nvcmp_out.txt
+          echo 'NV<<EOF' >> $GITHUB_ENV
+          cat /tmp/nvcmp_out.txt | sed 's/^/- /' >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+
+      - name: Create pull request
+        if: ${{ env.NV }} && container.event_name != 'pull_request'
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: Container bump report
+          branch: container_new_version
+          delete-branch: true
+          title: 'Container bump report'
+          body: |
+            Container bump report
+            ${{ env.NV }}
+          labels: |
+            container
             report
             automated pr
           team-reviewers: |

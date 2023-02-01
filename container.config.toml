@@ -1,0 +1,8 @@
+[__config__]
+oldver = "container.old_ver.json"
+newver = "container.new_ver.json"
+
+[vim]
+source = "container"
+container = "library/python"
+registry = "docker.io"
