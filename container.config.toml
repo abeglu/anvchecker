@@ -2,7 +2,7 @@
 oldver = "container.old_ver.json"
 newver = "container.new_ver.json"
 
-[vim]
+[python]
 source = "container"
 container = "library/python"
 registry = "docker.io"
