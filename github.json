@@ -1,7 +1,10 @@
 {
+  "Thruk": "v3.02",
   "grafana": "v9.4.0-beta1",
   "igvm": "v2.2.0",
+  "naemon-core": "v1.4.1",
   "nvchecker": "v2.10",
+  "seaweedfs": "3.41",
   "serveradmin": "v4.6.0",
   "shadowsocks-rust": "v1.15.2",
   "testtool": "v2.1.8"
