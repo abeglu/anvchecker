@@ -1,0 +1,8 @@
+{
+  "grafana": "v9.4.0-beta1",
+  "igvm": "v2.2.0",
+  "nvchecker": "v2.10",
+  "serveradmin": "v4.6.0",
+  "shadowsocks-rust": "v1.15.2",
+  "testtool": "v2.1.8"
+}
