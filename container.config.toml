@@ -1,8 +1,18 @@
 [__config__]
-oldver = "container.old_ver.json"
-newver = "container.new_ver.json"
+oldver = "container.json"
+newver = "container.new.json"
 
 [python]
 source = "container"
 container = "library/python"
+registry = "docker.io"
+
+[alpine]
+source = "container"
+container = "library/alpine"
+registry = "docker.io"
+
+[nginx]
+source = "container"
+container = "library/nginx"
 registry = "docker.io"

@@ -1,16 +1,33 @@
 [__config__]
-oldver = "github.old_ver.json"
-newver = "github.new_ver.json"
-
-[winterpy]
-source = "github"
-github = "lilydjwg/winterpy"
+oldver = "github.json"
+newver = "github.new.json"
 
 [nvchecker]
 source = "github"
 github = "lilydjwg/nvchecker"
+use_max_tag = true
 
 [serveradmin]
 source = "github"
 github = "innogames/serveradmin"
+use_max_tag = true
+
+[igvm]
+source = "github"
+github = "innogames/igvm"
+use_max_tag = true
+
+[testtool]
+source = "github"
+github = "innogames/testtool"
+use_max_tag = true
+
+[shadowsocks-rust]
+source = "github"
+github = "shadowsocks/shadowsocks-rust"
+use_max_tag = true
+
+[grafana]
+source = "github"
+github = "grafana/grafana"
 use_max_tag = true
