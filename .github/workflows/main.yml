@@ -5,7 +5,7 @@ name: 'New Version Checker'
 on:
   push:
     branches:
-      - main
+      - update
   schedule:
     - cron: '20 16 * * *' # Run everyday at 16:20 UTC
 
@@ -35,7 +35,7 @@ jobs:
           echo 'EOF' >> $GITHUB_ENV
 
       - name: Create pull request
-        if: ${{ env.NV }} && github.event_name != 'pull_request'
+        if: ${{ env.NV }}
         uses: peter-evans/create-pull-request@v4
         with:
           commit-message: Github bump report
@@ -74,7 +74,7 @@ jobs:
           echo 'EOF' >> $GITHUB_ENV
 
       - name: Create pull request
-        if: ${{ env.NV }} && container.event_name != 'pull_request'
+        if: ${{ env.NV }}
         uses: peter-evans/create-pull-request@v4
         with:
           commit-message: Container bump report
