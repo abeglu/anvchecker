@@ -31,3 +31,18 @@ use_max_tag = true
 source = "github"
 github = "grafana/grafana"
 use_max_tag = true
+
+[naemon-core]
+source = "github"
+github = "naemon/naemon-core"
+use_max_tag = true
+
+[Thruk]
+source = "github"
+github = "sni/Thruk"
+use_max_tag = true
+
+[seaweedfs]
+source = "github"
+github = "seaweedfs/seaweedfs"
+use_max_tag = true
