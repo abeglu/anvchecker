@@ -6,3 +6,13 @@ newver = "container.new_ver.json"
 source = "container"
 container = "library/python"
 registry = "docker.io"
+
+[alpine]
+source = "container"
+container = "library/alpine"
+registry = "docker.io"
+
+[nginx]
+source = "container"
+container = "library/nginx"
+registry = "docker.io"
