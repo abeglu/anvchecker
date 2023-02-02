@@ -33,17 +33,18 @@ jobs:
           echo 'NV<<EOF' >> $GITHUB_ENV
           cat /tmp/nvcmp_out.txt | sed 's/^/- /' >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
+          echo "NV_COUNT=$(wc -l /tmp/nvcmp_out.txt | awk '{print $1}')" >> $GITHUB_ENV
 
       - name: Create pull request
         if: ${{ env.NV }}
         uses: peter-evans/create-pull-request@v4
         with:
-          commit-message: Github bump report
+          commit-message: ${{ env.NV_COUNT }} github repo updated 
           branch: github_new_version
           delete-branch: true
           title: 'Github bump report'
           body: |
-            Github bump report
+            Github repos
             ${{ env.NV }}
           labels: |
             github
@@ -72,17 +73,18 @@ jobs:
           echo 'NV<<EOF' >> $GITHUB_ENV
           cat /tmp/nvcmp_out.txt | sed 's/^/- /' >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
+          echo "NV_COUNT=$(wc -l /tmp/nvcmp_out.txt | awk '{print $1}')" >> $GITHUB_ENV
 
       - name: Create pull request
         if: ${{ env.NV }}
         uses: peter-evans/create-pull-request@v4
         with:
-          commit-message: Container bump report
+          commit-message: ${{ env.NV_COUNT }} container image updated
           branch: container_new_version
           delete-branch: true
           title: 'Container bump report'
           body: |
-            Container bump report
+            Container images
             ${{ env.NV }}
           labels: |
             container
