@@ -21,8 +21,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      # - name: Install nvchecker
+      #   run: sudo apt-get update && sudo apt-get install -y nvchecker
+
       - name: Install nvchecker
-        run: sudo apt-get update && sudo apt-get install -y nvchecker
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: nvchecker
+          version: 1.0
 
       - name: Check versions
         run: nvchecker -t 3 -c ./github.config.toml
@@ -61,8 +67,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      # - name: Install nvchecker
+      #   run: sudo apt-get update && sudo apt-get install -y nvchecker
+
       - name: Install nvchecker
-        run: sudo apt-get update && sudo apt-get install -y nvchecker
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: nvchecker
+          version: 1.0
 
       - name: Check versions
         run: nvchecker -t 3 -c ./container.config.toml
