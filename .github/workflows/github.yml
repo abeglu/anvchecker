@@ -1,0 +1,62 @@
+name: 'Check Github'
+
+# **What it does**: Checks software new releases, then notify me.
+
+on:
+  push:
+    branches:
+      - update
+  schedule:
+    - cron: '30 6 * * *' # Run everyday at 06:30 UTC
+
+# This allows a subsequently queued workflow run to interrupt previous runs
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
+
+jobs:
+  Check-github:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # - name: Install nvchecker
+      #   run: sudo apt-get update && sudo apt-get install -y nvchecker
+
+      - name: Install nvchecker
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: nvchecker
+          version: 1.0
+
+      - name: Check versions
+        run: nvchecker -t 3 -c ./github.config.toml
+
+      - name: Compare versions
+        run: |
+          nvcmp -c ./github.config.toml | tee /tmp/nvcmp_out.txt && mv github.new.json github.json
+          echo 'NV<<EOF' >> $GITHUB_ENV
+          cat /tmp/nvcmp_out.txt | sed 's/^/- /' >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+          echo "NV_COUNT=$(wc -l /tmp/nvcmp_out.txt | awk '{print $1}')" >> $GITHUB_ENV
+
+      - name: Create pull request
+        if: ${{ env.NV }}
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: ${{ env.NV_COUNT }} github repo updated 
+          branch: github_new_version
+          delete-branch: true
+          title: 'Github bump report'
+          body: |
+            Github repos
+            ${{ env.NV }}
+          labels: |
+            github
+            report
+            automated pr
+          team-reviewers: |
+            owners
+            maintainers
+          draft: false
