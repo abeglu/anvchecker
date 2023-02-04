@@ -30,10 +30,11 @@ source = "container"
 container = "library/alpine"
 registry = "docker.io"
 
-[nginx]
+[nginx-stable]
 source = "container"
 container = "library/nginx"
 registry = "docker.io"
+include_regex = "stable"
 
 [postgres]
 source = "container"
