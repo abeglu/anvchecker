@@ -11,7 +11,7 @@ registry = "docker.io"
 source = "container"
 container = "library/python"
 registry = "docker.io"
-include_regex = "3.9.\d+"
+include_regex = '3.9.\d+'
 
 [debian-latest]
 source = "container"
@@ -22,7 +22,7 @@ registry = "docker.io"
 source = "container"
 container = "library/debian"
 registry = "docker.io"
-include_regex = "buster\d{8}"
+include_regex = 'buster\d{8}'
 
 [alpine]
 source = "container"
