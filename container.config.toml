@@ -7,34 +7,32 @@ source = "container"
 container = "library/python"
 registry = "docker.io"
 
-[python-3.9]
+[python-stable]
 source = "container"
 container = "library/python"
 registry = "docker.io"
-include_regex = "3.9.*"
+include_regex = "3.9.\d+"
 
 [debian-latest]
 source = "container"
 container = "library/debian"
 registry = "docker.io"
-include_regex = "stable"
 
 [debian-buster]
 source = "container"
 container = "library/debian"
 registry = "docker.io"
-include_regex = "buster"
+include_regex = "buster\d{8}"
 
 [alpine]
 source = "container"
 container = "library/alpine"
 registry = "docker.io"
 
-[nginx-stable]
+[nginx]
 source = "container"
 container = "library/nginx"
 registry = "docker.io"
-include_regex = "stable"
 
 [postgres]
 source = "container"
