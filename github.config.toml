@@ -7,6 +7,11 @@ source = "github"
 github = "lilydjwg/nvchecker"
 use_max_tag = true
 
+[shadowsocks-rust]
+source = "github"
+github = "shadowsocks/shadowsocks-rust"
+use_max_tag = true
+
 [serveradmin]
 source = "github"
 github = "innogames/serveradmin"
@@ -22,9 +27,9 @@ source = "github"
 github = "innogames/testtool"
 use_max_tag = true
 
-[shadowsocks-rust]
+[igmonplugins]
 source = "github"
-github = "shadowsocks/shadowsocks-rust"
+github = "innogames/igmonplugins"
 use_max_tag = true
 
 [grafana]
@@ -32,9 +37,64 @@ source = "github"
 github = "grafana/grafana"
 use_max_tag = true
 
+[loki]
+source = "github"
+github = "grafana/loki"
+use_max_tag = true
+
+[mimir]
+source = "github"
+github = "grafana/mimir"
+use_latest_release = true
+
+[tempo]
+source = "github"
+github = "grafana/tempo"
+use_max_tag = true
+
+[prometheus]
+source = "github"
+github = "prometheus/prometheus"
+use_max_tag = true
+
+[alertmanager]
+source = "github"
+github = "prometheus/alertmanager"
+use_max_tag = true
+
+[nagioscore]
+source = "github"
+github = "NagiosEnterprises/nagioscore"
+use_max_tag = true
+
+[nrpe]
+source = "github"
+github = "NagiosEnterprises/nrpe"
+use_max_tag = true
+
+[nsca]
+source = "github"
+github = "NagiosEnterprises/nsca"
+use_max_tag = true
+
+[nagios-plugins]
+source = "github"
+github = "nagios-plugins/nagios-plugins"
+use_max_tag = true
+
 [naemon-core]
 source = "github"
 github = "naemon/naemon-core"
+use_max_tag = true
+
+[naemon-livestatus]
+source = "github"
+github = "naemon/naemon-livestatus"
+use_max_tag = true
+
+[mod_gearman]
+source = "github"
+github = "sni/mod_gearman"
 use_max_tag = true
 
 [Thruk]
@@ -46,3 +106,14 @@ use_max_tag = true
 source = "github"
 github = "seaweedfs/seaweedfs"
 use_max_tag = true
+
+[ansible]
+source = "github"
+github = "ansible/ansible"
+use_max_tag = true
+
+[puppet]
+source = "github"
+github = "puppetlabs/puppet"
+use_max_tag = true
+

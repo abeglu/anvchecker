@@ -1,0 +1,14 @@
+[__config__]
+oldver = "debianpkg.json"
+newver = "debianpkg.new.json"
+
+[nginx-buster]
+source = "debianpkg"
+debianpkg = "nginx"
+suite = "buster"
+
+[nginx-bullseye]
+source = "debianpkg"
+debianpkg = "nginx"
+suite = "bullseye"
+
