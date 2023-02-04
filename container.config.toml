@@ -22,7 +22,7 @@ registry = "docker.io"
 source = "container"
 container = "library/debian"
 registry = "docker.io"
-include_regex = 'buster\d{8}'
+include_regex = 'buster-\d{8}'
 
 [alpine]
 source = "container"
