@@ -45,7 +45,7 @@ use_max_tag = true
 [mimir]
 source = "github"
 github = "grafana/mimir"
-use_max_tag = true
+use_latest_release = true
 
 [tempo]
 source = "github"
