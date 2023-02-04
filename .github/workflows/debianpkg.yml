@@ -48,6 +48,7 @@ jobs:
           commit-message: ${{ env.NV_COUNT }} debian pkg updated 
           branch: debianpkg_new_version
           delete-branch: true
+          base: main
           title: 'Debian package bump report'
           body: |
             Debian packages

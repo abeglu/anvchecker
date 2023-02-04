@@ -48,6 +48,7 @@ jobs:
           commit-message: ${{ env.NV_COUNT }} github repo updated 
           branch: github_new_version
           delete-branch: true
+          base: main
           title: 'Github bump report'
           body: |
             Github repos
