@@ -7,19 +7,8 @@ source = "debianpkg"
 debianpkg = "nginx"
 suite = "buster"
 
-[nginx-extras-buster]
-source = "debianpkg"
-debianpkg = "nginx-extras"
-suite = "buster"
-
 [nginx-bullseye]
 source = "debianpkg"
 debianpkg = "nginx"
 suite = "bullseye"
-
-[nginx-extras-bullseye]
-source = "debianpkg"
-debianpkg = "nginx-extras"
-suite = "bullseye"
-
 
