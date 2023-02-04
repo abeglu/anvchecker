@@ -2,10 +2,28 @@
 oldver = "container.json"
 newver = "container.new.json"
 
-[python]
+[python-latest]
 source = "container"
 container = "library/python"
 registry = "docker.io"
+
+[python-3.9]
+source = "container"
+container = "library/python"
+registry = "docker.io"
+include_regex = "3.9.*"
+
+[debian-latest]
+source = "container"
+container = "library/debian"
+registry = "docker.io"
+include_regex = "stable"
+
+[debian-buster]
+source = "container"
+container = "library/debian"
+registry = "docker.io"
+include_regex = "buster"
 
 [alpine]
 source = "container"
@@ -16,3 +34,9 @@ registry = "docker.io"
 source = "container"
 container = "library/nginx"
 registry = "docker.io"
+
+[postgres]
+source = "container"
+container = "library/postgres"
+registry = "docker.io"
+
