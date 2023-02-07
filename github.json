@@ -6,7 +6,7 @@
   "igvm": "v2.2.0",
   "loki": "v2.7.3",
   "mimir": "mimir-2.6.0",
-  "mod_gearman": "v5.0.1",
+  "mod_gearman": "v5.0.2",
   "naemon-core": "v1.4.1",
   "naemon-livestatus": "v1.4.1",
   "nagios-plugins": "v2.2",
