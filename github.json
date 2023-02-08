@@ -15,7 +15,7 @@
   "nsca": "nsca-2.10.2",
   "nvchecker": "v2.10",
   "prometheus": "v2.42.0",
-  "puppet": "7.22.0",
+  "puppet": "7.23.0",
   "seaweedfs": "3.42",
   "serveradmin": "v4.6.0",
   "shadowsocks-rust": "v1.15.2",
