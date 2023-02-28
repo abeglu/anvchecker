@@ -1,7 +1,7 @@
 {
   "Thruk": "v3.04",
   "alertmanager": "v0.25.0",
-  "ansible": "v2.14.3rc1",
+  "ansible": "v2.14.3",
   "grafana": "v9.4.0-beta1",
   "igvm": "v2.2.0",
   "loki": "v2.7.4",
