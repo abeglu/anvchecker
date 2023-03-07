@@ -2,7 +2,7 @@
   "Thruk": "v3.04",
   "alertmanager": "v0.25.0",
   "ansible": "v2.14.3",
-  "grafana": "v9.4.2",
+  "grafana": "v9.4.3",
   "igvm": "v2.2.0",
   "loki": "v2.7.4",
   "mimir": "mimir-2.6.0",
@@ -19,6 +19,6 @@
   "seaweedfs": "3.43",
   "serveradmin": "v4.7.0",
   "shadowsocks-rust": "v1.15.2",
-  "tempo": "v2.0.0",
+  "tempo": "v2.0.1",
   "testtool": "v2.1.8"
 }
