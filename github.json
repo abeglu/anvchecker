@@ -18,7 +18,7 @@
   "puppet": "7.23.0",
   "seaweedfs": "3.43",
   "serveradmin": "v4.7.1",
-  "shadowsocks-rust": "v1.15.2",
+  "shadowsocks-rust": "v1.15.3",
   "tempo": "v2.0.1",
   "testtool": "v2.1.8"
 }
