@@ -57,7 +57,4 @@ jobs:
             container
             report
             automated pr
-          team-reviewers: |
-            owners
-            maintainers
           draft: false
