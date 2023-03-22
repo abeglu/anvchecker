@@ -1,7 +1,7 @@
 {
   "Thruk": "v3.04",
   "alertmanager": "v0.25.0",
-  "ansible": "v2.14.3",
+  "ansible": "v2.14.4rc1",
   "grafana": "v9.4.3",
   "igvm": "v2.2.0",
   "loki": "v2.7.4",
@@ -14,7 +14,7 @@
   "nrpe": "nrpe-4.1.0",
   "nsca": "nsca-2.10.2",
   "nvchecker": "v2.10",
-  "prometheus": "v2.43.0-rc.1+stringlabels",
+  "prometheus": "v2.43.0+stringlabels",
   "puppet": "7.23.0",
   "seaweedfs": "3.44",
   "serveradmin": "v4.8.0",
