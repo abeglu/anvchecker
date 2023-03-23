@@ -2,7 +2,7 @@
   "Thruk": "v3.04",
   "alertmanager": "v0.25.0",
   "ansible": "v2.14.4rc1",
-  "grafana": "v9.4.3",
+  "grafana": "v9.4.7",
   "igvm": "v2.2.0",
   "loki": "v2.7.4",
   "mimir": "mimir-2.7.1",
