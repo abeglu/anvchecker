@@ -4,7 +4,7 @@
   "ansible": "v2.14.4",
   "grafana": "v9.4.7",
   "igvm": "v2.2.0",
-  "loki": "v2.7.4",
+  "loki": "v2.7.5",
   "mimir": "mimir-2.7.1",
   "mod_gearman": "v5.1.0",
   "naemon-core": "v1.4.1",
