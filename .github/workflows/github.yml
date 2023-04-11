@@ -43,7 +43,7 @@ jobs:
 
       - name: Create pull request
         if: ${{ env.NV }}
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
           commit-message: ${{ env.NV_COUNT }} github repo updated 
           branch: github_new_version
