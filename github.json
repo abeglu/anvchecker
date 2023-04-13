@@ -19,6 +19,6 @@
   "seaweedfs": "3.45",
   "serveradmin": "v4.9.0",
   "shadowsocks-rust": "v1.15.3",
-  "tempo": "v2.0.1",
+  "tempo": "v2.1.0-rc.0",
   "testtool": "v2.1.8"
 }
