@@ -5,7 +5,7 @@
   "grafana": "v9.4.7",
   "igvm": "v2.2.0",
   "loki": "v2.8.0",
-  "mimir": "mimir-2.7.1",
+  "mimir": "mimir-2.7.2",
   "mod_gearman": "v5.1.0",
   "naemon-core": "v1.4.1",
   "naemon-livestatus": "v1.4.1",
