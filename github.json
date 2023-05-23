@@ -16,7 +16,7 @@
   "nvchecker": "v2.11",
   "prometheus": "v2.44.0",
   "puppet": "8.0.1",
-  "seaweedfs": "3.50",
+  "seaweedfs": "3.51",
   "serveradmin": "v4.9.0",
   "shadowsocks-rust": "v1.15.3",
   "tempo": "v2.1.1",
