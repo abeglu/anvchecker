@@ -1,5 +1,5 @@
 {
-  "Thruk": "v3.04",
+  "Thruk": "v3.06",
   "alertmanager": "v0.25.0",
   "ansible": "v2.15.0",
   "grafana": "v9.5.2",
