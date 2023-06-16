@@ -2,7 +2,7 @@
   "alpine": "20230329",
   "debian-buster": "buster-20230612",
   "debian-latest": "12.0",
-  "nginx": "1.25.0",
+  "nginx": "1.25.1",
   "postgres": "16beta1",
   "python-latest": "3.12-rc",
   "python-stable": "3.9.17"
