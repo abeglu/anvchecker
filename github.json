@@ -1,10 +1,10 @@
 {
   "Thruk": "v3.08.2",
   "alertmanager": "v0.25.0",
-  "ansible": "v2.15.2rc1",
+  "ansible": "v2.15.2",
   "grafana": "v10.0.2",
   "igvm": "v2.2.0",
-  "loki": "v2.8.2",
+  "loki": "2.8.3",
   "mimir": "mimir-2.9.0",
   "mod_gearman": "v5.1.2",
   "naemon-core": "v1.4.1",
@@ -14,11 +14,11 @@
   "nrpe": "nrpe-4.1.0",
   "nsca": "nsca-2.10.2",
   "nvchecker": "v2.12",
-  "prometheus": "v2.45.0",
+  "prometheus": "v2.46.0-rc.0",
   "puppet": "8.1.0",
   "seaweedfs": "3.54",
   "serveradmin": "v4.9.0",
   "shadowsocks-rust": "v1.15.4",
-  "tempo": "v2.1.1",
+  "tempo": "v2.2.0-rc.0",
   "testtool": "v2.1.8"
 }
