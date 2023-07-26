@@ -1,5 +1,5 @@
 {
-  "Thruk": "v3.08.2",
+  "Thruk": "v3.08.3",
   "alertmanager": "v0.25.0",
   "ansible": "v2.15.2",
   "grafana": "v10.0.2",
@@ -14,9 +14,9 @@
   "nrpe": "nrpe-4.1.0",
   "nsca": "nsca-2.10.2",
   "nvchecker": "v2.12",
-  "prometheus": "v2.46.0-rc.0",
+  "prometheus": "v2.46.0",
   "puppet": "8.1.0",
-  "seaweedfs": "3.54",
+  "seaweedfs": "3.55",
   "serveradmin": "v4.9.0",
   "shadowsocks-rust": "v1.15.4",
   "tempo": "v2.2.0-rc.0",
