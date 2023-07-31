@@ -62,6 +62,11 @@ source = "github"
 github = "prometheus/alertmanager"
 use_max_tag = true
 
+[grafana-agent]
+source = "github"
+github = "grafana/agent"
+use_max_tag = true
+
 [nagioscore]
 source = "github"
 github = "NagiosEnterprises/nagioscore"
@@ -117,3 +122,22 @@ source = "github"
 github = "puppetlabs/puppet"
 use_max_tag = true
 
+[marzban]
+source = "github"
+github = "Gozargah/Marzban"
+use_max_tag = true
+
+[marzban-node]
+source = "github"
+github = "Gozargah/Marzban-node"
+use_max_tag = true
+
+[mirza]
+source = "github"
+github = "mahdigholipour3/bottelegrammarzban"
+use_max_tag = true
+
+[xray-core]
+source = "github"
+github = "xtls/xray-core"
+use_max_tag = true
