@@ -9,7 +9,7 @@
   "marzban": "v0.3.2",
   "marzban-node": "v0.1.6",
   "mimir": "mimir-2.9.0",
-  "mirza": "4.1",
+  "mirza": "4.1.1",
   "mod_gearman": "v5.1.2",
   "naemon-core": "v1.4.1",
   "naemon-livestatus": "v1.4.1",
@@ -23,7 +23,7 @@
   "seaweedfs": "3.55",
   "serveradmin": "v4.10.0",
   "shadowsocks-rust": "v1.15.4",
-  "tempo": "v2.2.0-rc.0",
+  "tempo": "v2.2.0",
   "testtool": "v2.1.8",
   "xray-core": "v1.8.3"
 }
