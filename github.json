@@ -1,7 +1,7 @@
 {
   "Thruk": "v3.08.3",
   "alertmanager": "v0.25.0",
-  "ansible": "v2.15.2",
+  "ansible": "v2.15.3rc1",
   "grafana": "v10.0.3",
   "grafana-agent": "v0.35.2",
   "igvm": "v2.2.0",
@@ -9,7 +9,6 @@
   "marzban": "v0.3.2",
   "marzban-node": "v0.1.6",
   "mimir": "mimir-2.9.0",
-  "mirza": "4.2",
   "mod_gearman": "v5.1.2",
   "naemon-core": "v1.4.1",
   "naemon-livestatus": "v1.4.1",
