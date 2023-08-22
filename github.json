@@ -1,11 +1,11 @@
 {
   "Thruk": "v3.08.3",
-  "alertmanager": "v0.25.0",
-  "ansible": "v2.15.3rc1",
+  "alertmanager": "v0.26.0-rc.0",
+  "ansible": "v2.15.3",
   "grafana": "v10.0.3",
-  "grafana-agent": "v0.35.2",
+  "grafana-agent": "v0.35.4",
   "igvm": "v2.2.0",
-  "loki": "2.8.3",
+  "loki": "v2.8.4",
   "marzban": "v0.3.2",
   "marzban-node": "v0.1.6",
   "mimir": "mimir-2.9.0",
@@ -22,7 +22,7 @@
   "seaweedfs": "3.55",
   "serveradmin": "v4.10.0",
   "shadowsocks-rust": "v1.15.4",
-  "tempo": "v2.2.0",
+  "tempo": "v2.2.1",
   "testtool": "v2.1.8",
   "xray-core": "v1.8.3"
 }
