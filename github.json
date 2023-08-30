@@ -1,9 +1,9 @@
 {
   "Thruk": "v3.08.3",
-  "alertmanager": "v0.26.0-rc.0",
+  "alertmanager": "v0.26.0",
   "ansible": "v2.15.3",
-  "grafana": "v10.0.3",
-  "grafana-agent": "v0.35.4",
+  "grafana": "v10.1.0",
+  "grafana-agent": "v0.36.0-rc.3",
   "igvm": "v2.2.0",
   "loki": "v2.8.4",
   "marzban": "v0.3.2",
@@ -18,11 +18,11 @@
   "nsca": "nsca-2.10.2",
   "nvchecker": "v2.12",
   "prometheus": "v2.46.0",
-  "puppet": "8.1.0",
+  "puppet": "8.2.0",
   "seaweedfs": "3.55",
   "serveradmin": "v4.10.0",
-  "shadowsocks-rust": "v1.15.4",
+  "shadowsocks-rust": "v1.16.0",
   "tempo": "v2.2.1",
   "testtool": "v2.1.8",
-  "xray-core": "v1.8.3"
+  "xray-core": "v1.8.4"
 }
