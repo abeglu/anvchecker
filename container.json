@@ -5,5 +5,5 @@
   "nginx": "1.25.2",
   "postgres": "16beta3",
   "python-latest": "3.12.0rc1",
-  "python-stable": "3.9.17"
+  "python-stable": "3.9.18"
 }
