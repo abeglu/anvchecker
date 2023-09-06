@@ -1,5 +1,5 @@
 {
-  "alpine": "20230329",
+  "alpine": "20230901",
   "debian-buster": "buster-20230814",
   "debian-latest": "12.1",
   "nginx": "1.25.2",
