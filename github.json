@@ -8,7 +8,7 @@
   "loki": "v2.9.1",
   "marzban": "v0.3.2",
   "marzban-node": "v0.1.7",
-  "mimir": "mimir-2.9.1",
+  "mimir": "mimir-2.10.0",
   "mod_gearman": "v5.1.2",
   "naemon-core": "v1.4.1",
   "naemon-livestatus": "v1.4.1",
