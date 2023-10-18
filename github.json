@@ -17,7 +17,7 @@
   "nrpe": "nrpe-4.1.0",
   "nsca": "nsca-2.10.2",
   "nvchecker": "v2.12",
-  "prometheus": "v2.47.2",
+  "prometheus": "v2.48.0-rc.0",
   "puppet": "8.2.0",
   "seaweedfs": "3.57",
   "serveradmin": "v4.10.0",
