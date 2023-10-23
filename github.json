@@ -22,7 +22,7 @@
   "seaweedfs": "3.57",
   "serveradmin": "v4.10.0",
   "shadowsocks-rust": "v1.17.0",
-  "tempo": "v2.2.3",
+  "tempo": "v2.3.0-rc.0",
   "testtool": "v2.1.8",
   "xray-core": "v1.8.4"
 }
