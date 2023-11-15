@@ -2,7 +2,7 @@
   "Thruk": "v3.10",
   "alertmanager": "v0.26.0",
   "ansible": "v2.16.0",
-  "grafana": "v10.2.0",
+  "grafana": "v10.2.1",
   "grafana-agent": "v0.37.4",
   "igvm": "v2.2.0",
   "loki": "v2.9.2",
