@@ -1,7 +1,7 @@
 {
   "Thruk": "v3.10",
   "alertmanager": "v0.26.0",
-  "ansible": "v2.16.0",
+  "ansible": "v2.16.1rc1",
   "grafana": "v10.2.2",
   "grafana-agent": "v0.38.0",
   "igvm": "v2.2.0",
@@ -21,7 +21,7 @@
   "puppet": "8.3.1",
   "seaweedfs": "3.59",
   "serveradmin": "v4.11.0",
-  "shadowsocks-rust": "v1.17.0",
+  "shadowsocks-rust": "v1.17.1",
   "tempo": "v2.3.0",
   "testtool": "v2.1.8",
   "xray-core": "v1.8.6"
