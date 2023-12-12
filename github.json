@@ -1,11 +1,11 @@
 {
   "Thruk": "v3.10",
   "alertmanager": "v0.26.0",
-  "ansible": "v2.16.1",
+  "ansible": "v2.16.2",
   "grafana": "v10.2.2",
   "grafana-agent": "v0.38.1",
   "igvm": "v2.2.0",
-  "loki": "v2.9.2",
+  "loki": "v2.9.3",
   "marzban": "v0.4.1",
   "marzban-node": "v0.2.0",
   "mimir": "mimir-2.10.4",
