@@ -17,12 +17,12 @@
   "nrpe": "nrpe-4.1.0",
   "nsca": "nsca-2.10.2",
   "nvchecker": "v2.13.1",
-  "prometheus": "v2.49.0-rc.2",
-  "puppet": "8.3.1",
-  "seaweedfs": "3.61",
+  "prometheus": "v2.49.1",
+  "puppet": "8.4.0",
+  "seaweedfs": "3.62",
   "serveradmin": "v4.11.0",
   "shadowsocks-rust": "v1.17.1",
   "tempo": "v2.3.1",
-  "testtool": "v2.1.8",
+  "testtool": "v2.1.9",
   "xray-core": "v1.8.7"
 }
