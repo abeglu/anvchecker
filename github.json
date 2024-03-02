@@ -6,7 +6,7 @@
   "grafana-agent": "v0.40.1",
   "igvm": "v2.2.0",
   "loki": "v2.9.5",
-  "marzban": "v0.4.8",
+  "marzban": "v0.4.9",
   "marzban-node": "v0.3.1",
   "mimir": "mimir-2.11.0",
   "mod_gearman": "v5.1.3",
