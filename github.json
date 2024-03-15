@@ -3,7 +3,7 @@
   "alertmanager": "v0.27.0",
   "ansible": "v2.16.4",
   "grafana": "v10.4.0",
-  "grafana-agent": "v0.40.2",
+  "grafana-agent": "v0.40.3",
   "igvm": "v2.2.0",
   "loki": "v2.9.5",
   "marzban": "v0.4.9",
