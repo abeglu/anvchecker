@@ -1,7 +1,7 @@
 {
   "Thruk": "v3.14.2",
   "alertmanager": "v0.27.0",
-  "ansible": "v2.16.5rc1",
+  "ansible": "v2.16.5",
   "grafana": "v10.4.1",
   "grafana-agent": "v0.40.3",
   "igvm": "v2.2.0",
