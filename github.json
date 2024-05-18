@@ -20,7 +20,7 @@
   "prometheus": "v2.52.0",
   "puppet": "8.6.0",
   "seaweedfs": "3.67",
-  "serveradmin": "v4.14.0",
+  "serveradmin": "v4.14.1",
   "shadowsocks-rust": "v1.18.4",
   "tempo": "v2.4.2",
   "testtool": "v2.1.11",
