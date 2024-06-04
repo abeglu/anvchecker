@@ -3,7 +3,7 @@
   "debian-buster": "buster-20240513",
   "debian-latest": "12.5",
   "nginx": "1.27.0",
-  "postgres": "16.3",
+  "postgres": "17beta1",
   "python-latest": "3.13-rc",
   "python-stable": "3.9.19"
 }
