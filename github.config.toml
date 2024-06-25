@@ -132,11 +132,6 @@ source = "github"
 github = "Gozargah/Marzban-node"
 use_max_tag = true
 
-[mirza]
-source = "github"
-github = "mahdigholipour3/bottelegrammarzban"
-use_max_tag = true
-
 [xray-core]
 source = "github"
 github = "xtls/xray-core"
