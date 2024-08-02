@@ -4,6 +4,6 @@
   "debian-latest": "12.6",
   "nginx": "1.27.0",
   "postgres": "17beta2",
-  "python-latest": "3.13-rc",
+  "python-latest": "3.13.0rc1",
   "python-stable": "3.9.19"
 }
