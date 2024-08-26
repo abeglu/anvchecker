@@ -4,7 +4,7 @@
   "ansible": "v2.17.3",
   "grafana": "v11.1.4",
   "grafana-agent": "v0.42.0",
-  "igvm": "v2.2.2",
+  "igvm": "v2.2.3",
   "loki": "v3.1.1",
   "marzban": "v0.6.0",
   "marzban-node": "v0.3.3",
