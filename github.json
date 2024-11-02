@@ -8,7 +8,7 @@
   "loki": "v3.2.1",
   "marzban": "v0.7.0",
   "marzban-node": "v0.3.3",
-  "mimir": "mimir-2.14.0",
+  "mimir": "mimir-2.14.1",
   "mod_gearman": "v5.1.4",
   "naemon-core": "v1.4.2",
   "naemon-livestatus": "v1.4.2",
@@ -17,12 +17,12 @@
   "nrpe": "nrpe-4.1.1",
   "nsca": "nsca-2.10.3",
   "nvchecker": "v2.15.1",
-  "prometheus": "v3.0.0-beta.1",
+  "prometheus": "v3.0.0-rc.0",
   "puppet": "8.10.0",
   "seaweedfs": "3.79",
   "serveradmin": "v4.16.2",
   "shadowsocks-rust": "v1.21.2",
   "tempo": "v2.6.1",
   "testtool": "v2.1.11",
-  "xray-core": "v24.10.16"
+  "xray-core": "v24.10.31"
 }
