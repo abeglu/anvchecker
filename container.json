@@ -1,9 +1,10 @@
 {
   "alpine": "20240807",
-  "debian-buster": "buster-20240612",
+  "debian-bookworm": "bookworm-20241111",
   "debian-latest": "12.8",
   "nginx": "1.27.2",
   "postgres": "17.1",
   "python-latest": "3.14-rc",
-  "python-stable": "3.9.20"
+  "python-stable": "3.12.7",
+  "ubuntu-latest": "25.04"
 }
