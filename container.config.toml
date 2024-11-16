@@ -11,18 +11,23 @@ registry = "docker.io"
 source = "container"
 container = "library/python"
 registry = "docker.io"
-include_regex = '3.9.\d+'
+include_regex = '3.12.\d+'
 
 [debian-latest]
 source = "container"
 container = "library/debian"
 registry = "docker.io"
 
-[debian-buster]
+[debian-bookworm]
 source = "container"
 container = "library/debian"
 registry = "docker.io"
-include_regex = 'buster-\d{8}'
+include_regex = 'bookworm-\d{8}'
+
+[ubuntu-latest]
+source = "container"
+container = "library/ubuntu"
+registry = "docker.io"
 
 [alpine]
 source = "container"

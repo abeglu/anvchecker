@@ -7,11 +7,6 @@ source = "github"
 github = "lilydjwg/nvchecker"
 use_max_tag = true
 
-[shadowsocks-rust]
-source = "github"
-github = "shadowsocks/shadowsocks-rust"
-use_max_tag = true
-
 [serveradmin]
 source = "github"
 github = "innogames/serveradmin"
@@ -30,6 +25,11 @@ use_max_tag = true
 [igmonplugins]
 source = "github"
 github = "innogames/igmonplugins"
+use_max_tag = true
+
+[puppet-adminapi]
+source = "github"
+github = "innogames/puppet-adminapi"
 use_max_tag = true
 
 [grafana]
@@ -102,9 +102,24 @@ source = "github"
 github = "sni/mod_gearman"
 use_max_tag = true
 
+[mod-gearman-worker-go]
+source = "github"
+github = "ConSol-Monitoring/mod-gearman-worker-go"
+use_max_tag = true
+
 [Thruk]
 source = "github"
 github = "sni/Thruk"
+use_max_tag = true
+
+[lmd]
+source = "github"
+github = "sni/lmd"
+use_max_tag = true
+
+[aptly]
+source = "github"
+github = "aptly-dev/aptly"
 use_max_tag = true
 
 [seaweedfs]
