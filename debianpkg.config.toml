@@ -2,13 +2,8 @@
 oldver = "debianpkg.json"
 newver = "debianpkg.new.json"
 
-[nginx-buster]
+[nginx-bookworm]
 source = "debianpkg"
 debianpkg = "nginx"
-suite = "buster"
-
-[nginx-bullseye]
-source = "debianpkg"
-debianpkg = "nginx"
-suite = "bullseye"
+suite = "bookworm"
 
