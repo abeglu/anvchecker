@@ -1,5 +1,5 @@
 {
-  "alpine": "20240923",
+  "alpine": "20250108",
   "debian-bookworm": "bookworm-20241223",
   "debian-latest": "12.8",
   "nginx": "1.27.3",
