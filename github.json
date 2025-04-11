@@ -24,7 +24,7 @@
   "puppet": "8.10.0",
   "puppet-adminapi": "v1.2.1",
   "seaweedfs": "3.85",
-  "serveradmin": "v4.20.0",
+  "serveradmin": "v4.20.1",
   "tempo": "v2.7.2",
   "testtool": "v2.1.13",
   "xray-core": "v25.3.31"
