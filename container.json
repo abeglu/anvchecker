@@ -1,6 +1,6 @@
 {
   "alpine": "20250108",
-  "debian-bookworm": "bookworm-20250610",
+  "debian-bookworm": "bookworm-20250630",
   "debian-latest": "12.11",
   "nginx": "1.29.0",
   "postgres": "18beta1",
