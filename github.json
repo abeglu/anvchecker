@@ -3,7 +3,7 @@
   "alertmanager": "v0.28.1",
   "ansible": "v2.19.0rc2",
   "aptly": "v1.6.2",
-  "grafana": "v12.0.2",
+  "grafana": "v12.0.2+security-01",
   "grafana-agent": "v0.44.3",
   "igvm": "v2.3.0",
   "lmd": "v2.6.1",
