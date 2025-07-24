@@ -1,13 +1,13 @@
 {
   "Thruk": "v3.22.2",
   "alertmanager": "v0.28.1",
-  "ansible": "v2.19.0rc2",
+  "ansible": "v2.19.0",
   "aptly": "v1.6.2",
-  "grafana": "v12.0.2+security-01",
+  "grafana": "v12.1.0",
   "grafana-agent": "v0.44.3",
   "igvm": "v2.3.0",
   "lmd": "v2.6.1",
-  "loki": "v3.5.2",
+  "loki": "v3.5.3",
   "marzban": "v1.0.0-beta-1",
   "marzban-node": "v0.5.2",
   "mimir": "mimir-2.16.1",
@@ -24,8 +24,8 @@
   "puppet": "8.10.0",
   "puppet-adminapi": "v1.2.1",
   "seaweedfs": "3.95",
-  "serveradmin": "v4.22.0",
+  "serveradmin": "v4.22.1",
   "tempo": "v2.8.1",
   "testtool": "v2.1.13",
-  "xray-core": "v25.6.8"
+  "xray-core": "v25.7.24"
 }
