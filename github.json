@@ -6,7 +6,7 @@
   "grafana": "v12.1.0",
   "grafana-agent": "v0.44.3",
   "igvm": "v2.3.0",
-  "lmd": "v2.6.1",
+  "lmd": "v2.6.2",
   "loki": "v3.5.3",
   "marzban": "v1.0.0-beta-1",
   "marzban-node": "v0.5.2",
@@ -27,5 +27,5 @@
   "serveradmin": "v4.22.1",
   "tempo": "v2.8.1",
   "testtool": "v2.1.13",
-  "xray-core": "v25.7.24"
+  "xray-core": "v25.7.25"
 }
