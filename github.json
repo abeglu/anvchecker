@@ -1,7 +1,7 @@
 {
   "Thruk": "v3.22.2",
   "alertmanager": "v0.28.1",
-  "ansible": "v2.19.1rc1",
+  "ansible": "v2.19.1",
   "aptly": "v1.6.2",
   "grafana": "v12.1.1",
   "grafana-agent": "v0.44.3",
@@ -27,5 +27,5 @@
   "serveradmin": "v4.22.1",
   "tempo": "v2.8.2",
   "testtool": "v2.1.14",
-  "xray-core": "v25.8.3"
+  "xray-core": "v25.8.29"
 }
