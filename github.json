@@ -1,16 +1,16 @@
 {
   "Thruk": "v3.22.2",
   "alertmanager": "v0.28.1",
-  "ansible": "v2.19.1rc1",
+  "ansible": "v2.19.2",
   "aptly": "v1.6.2",
   "grafana": "v12.1.1",
   "grafana-agent": "v0.44.3",
   "igvm": "v2.3.0",
   "lmd": "v2.6.2",
-  "loki": "v3.5.3",
+  "loki": "v3.5.4",
   "marzban": "v1.0.0-beta-3",
   "marzban-node": "v0.5.2",
-  "mimir": "mimir-2.17.0",
+  "mimir": "mimir-2.17.1",
   "mod-gearman-worker-go": "v1.5.8",
   "mod_gearman": "v5.1.9",
   "naemon-core": "v1.4.4",
@@ -23,9 +23,9 @@
   "prometheus": "v3.6.0-rc.0",
   "puppet": "8.10.0",
   "puppet-adminapi": "v1.2.1",
-  "seaweedfs": "3.96",
+  "seaweedfs": "3.97",
   "serveradmin": "v4.22.1",
   "tempo": "v2.8.2",
   "testtool": "v2.1.14",
-  "xray-core": "v25.8.3"
+  "xray-core": "v25.9.11"
 }
