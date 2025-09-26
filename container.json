@@ -3,8 +3,8 @@
   "debian-bookworm": "bookworm-20250908",
   "debian-latest": "13.1",
   "nginx": "1.29.1",
-  "postgres": "18rc1",
-  "python-latest": "3.14.0rc2",
+  "postgres": "18.0",
+  "python-latest": "3.14.0rc3",
   "python-stable": "3.12.11",
   "ubuntu-latest": "25.10"
 }
