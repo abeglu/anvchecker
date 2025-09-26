@@ -1,9 +1,9 @@
 {
   "Thruk": "v3.22.2",
   "alertmanager": "v0.28.1",
-  "ansible": "v2.19.2",
+  "ansible": "v2.20.0b1",
   "aptly": "v1.6.2",
-  "grafana": "v12.1.1",
+  "grafana": "v12.2.0",
   "grafana-agent": "v0.44.4",
   "igvm": "v2.3.0",
   "lmd": "v2.6.2",
@@ -25,7 +25,7 @@
   "puppet-adminapi": "v1.2.1",
   "seaweedfs": "3.97",
   "serveradmin": "v4.22.1",
-  "tempo": "v2.8.2",
+  "tempo": "v2.9.0-rc.0",
   "testtool": "v2.1.14",
   "xray-core": "v25.9.11"
 }
