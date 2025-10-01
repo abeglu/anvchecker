@@ -62,9 +62,9 @@ source = "github"
 github = "prometheus/alertmanager"
 use_max_tag = true
 
-[grafana-agent]
+[alloy]
 source = "github"
-github = "grafana/agent"
+github = "grafana/alloy"
 use_max_tag = true
 
 [nagioscore]
@@ -122,32 +122,48 @@ source = "github"
 github = "aptly-dev/aptly"
 use_max_tag = true
 
-[seaweedfs]
-source = "github"
-github = "seaweedfs/seaweedfs"
-use_max_tag = true
-
-[ansible]
-source = "github"
-github = "ansible/ansible"
-use_max_tag = true
-
 [puppet]
 source = "github"
 github = "puppetlabs/puppet"
-use_max_tag = true
-
-[marzban]
-source = "github"
-github = "Gozargah/Marzban"
-use_max_tag = true
-
-[marzban-node]
-source = "github"
-github = "Gozargah/Marzban-node"
 use_max_tag = true
 
 [xray-core]
 source = "github"
 github = "xtls/xray-core"
 use_max_tag = true
+
+[argocd]
+source = "github"
+github = "argoproj/argo-cd"
+use_max_tag = true
+
+[cluster-api]
+source = "github"
+github = "kubernetes-sigs/cluster-api"
+use_max_tag = true
+
+[cluster-api-operator]
+source = "github"
+github = "kubernetes-sigs/cluster-api-operator"
+use_max_tag = true
+
+[cluster-api-provider-hetzner]
+source = "github"
+github = "syself/cluster-api-provider-hetzner"
+use_max_tag = true
+
+[cluster-api-addon-provider-helm]
+source = "github"
+github = "kubernetes-sigs/cluster-api-addon-provider-helm"
+use_max_tag = true
+
+[kamaji]
+source = "github"
+github = "clastix/kamaji"
+use_max_tag = true
+
+[kamaji-etcd]
+source = "github"
+github = "clastix/kamaji-etcd"
+use_max_tag = true
+
