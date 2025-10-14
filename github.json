@@ -13,7 +13,7 @@
   "kamaji": "v1.0.0",
   "kamaji-etcd": "v0.14.0",
   "lmd": "v2.6.3",
-  "loki": "v3.5.6",
+  "loki": "v3.5.7",
   "mimir": "mimir-2.17.1",
   "mod-gearman-worker-go": "v1.5.8",
   "mod_gearman": "v5.1.9",
@@ -28,7 +28,7 @@
   "puppet": "8.10.0",
   "puppet-adminapi": "v1.2.1",
   "serveradmin": "v4.22.1",
-  "tempo": "v2.9.0-rc.0",
+  "tempo": "v2.9.0",
   "testtool": "v2.1.14",
   "xray-core": "v25.9.11"
 }
