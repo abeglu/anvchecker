@@ -3,7 +3,7 @@
   "debian-latest": "13.1",
   "nginx": "1.29.2",
   "postgres": "18.0",
-  "python-latest": "3.14.0",
+  "python-latest": "3.15-rc",
   "python-stable": "3.13.8",
   "ubuntu-latest": "25.10"
 }
