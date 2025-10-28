@@ -1,7 +1,7 @@
 {
   "Thruk": "v3.24",
   "alertmanager": "v0.29.0-rc.1",
-  "alloy": "v1.11.2",
+  "alloy": "v1.11.3",
   "aptly": "v1.6.2",
   "argocd": "v3.2.0-rc4",
   "cluster-api": "v1.11.2",
@@ -27,7 +27,7 @@
   "prometheus": "v3.7.2",
   "puppet": "8.10.0",
   "puppet-adminapi": "v1.2.1",
-  "serveradmin": "v4.22.1",
+  "serveradmin": "v4.23.0",
   "tempo": "v2.9.0",
   "testtool": "v2.1.14",
   "xray-core": "v25.10.15"
