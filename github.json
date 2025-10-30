@@ -14,7 +14,7 @@
   "kamaji-etcd": "v0.14.0",
   "lmd": "v2.6.4",
   "loki": "v3.5.7",
-  "mimir": "mimir-2.17.1",
+  "mimir": "mimir-2.17.2",
   "mod-gearman-worker-go": "v1.5.8",
   "mod_gearman": "v5.1.9",
   "naemon-core": "v1.4.4",
