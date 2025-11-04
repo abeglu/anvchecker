@@ -167,3 +167,79 @@ source = "github"
 github = "clastix/kamaji-etcd"
 use_max_tag = true
 
+[cert-manager]
+source = "github"
+github = "cert-manager/cert-manager"
+use_max_tag = true
+
+[cloudnative-pg]
+source = "github"
+github = "cloudnative-pg/cloudnative-pg"
+use_max_tag = true
+
+[external-dns]
+source = "github"
+github = "kubernetes-sigs/external-dns"
+use_max_tag = true
+
+[harbor]
+source = "github"
+github = "goharbor/harbor"
+use_max_tag = true
+
+[ingress-nginx]
+source = "github"
+github = "kubernetes/ingress-nginx"
+use_max_tag = true
+
+[keycloak]
+source = "github"
+github = "keycloak/keycloak"
+use_max_tag = true
+
+[kube-prometheus-stack]
+source = "github"
+github = "prometheus-community/helm-charts"
+use_max_tag = true
+include_regex = 'kube-prometheus-stack-.*'
+
+[kubernetes-ingress]
+source = "github"
+github = "haproxytech/kubernetes-ingress"
+use_max_tag = true
+
+[local-path-provisioner]
+source = "github"
+github = "rancher/local-path-provisioner"
+use_max_tag = true
+
+[metrics-server]
+source = "github"
+github = "kubernetes-sigs/metrics-server"
+use_max_tag = true
+
+[openbao]
+source = "github"
+github = "openbao/openbao"
+use_max_tag = true
+
+[rbac-manager]
+source = "github"
+github = "FairwindsOps/rbac-manager"
+use_max_tag = true
+
+[sealed-secrets]
+source = "github"
+github = "bitnami-labs/sealed-secrets"
+use_max_tag = true
+
+[velero]
+source = "github"
+github = "vmware-tanzu/velero"
+use_max_tag = true
+
+[velero-plugin-for-aws]
+source = "github"
+github = "vmware-tanzu/velero-plugin-for-aws"
+use_max_tag = true
+
