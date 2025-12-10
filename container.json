@@ -1,9 +1,9 @@
 {
   "alpine": "20250108",
   "debian-latest": "13.2",
-  "nginx": "1.29.3",
+  "nginx": "1.29.4",
   "postgres": "18.1",
   "python-latest": "3.15-rc",
-  "python-stable": "3.13.10",
+  "python-stable": "3.13.11",
   "ubuntu-latest": "26.04"
 }
