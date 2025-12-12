@@ -1,12 +1,12 @@
 {
   "Thruk": "v3.24",
-  "alertmanager": "v0.29.0",
+  "alertmanager": "v0.30.0-rc.0",
   "alloy": "v1.12.0",
   "aptly": "v1.6.2",
   "argocd": "v3.2.1",
   "cert-manager": "v1.20.0-alpha.0",
-  "cloudnative-pg": "v1.28.0-rc2",
-  "cluster-api": "v1.12.0-rc.1",
+  "cloudnative-pg": "v1.28.0",
+  "cluster-api": "v1.12.0",
   "cluster-api-addon-provider-helm": "v0.5.2",
   "cluster-api-operator": "v0.24.1",
   "cluster-api-provider-hetzner": "v1.0.7",
@@ -18,11 +18,11 @@
   "kamaji": "v1.0.0",
   "kamaji-etcd": "v0.14.0",
   "keycloak": "26.4.7",
-  "kube-prometheus-stack": "kube-prometheus-stack-80.0.0",
+  "kube-prometheus-stack": "kube-prometheus-stack-80.2.1",
   "kubernetes-ingress": "v3.1.14",
   "lmd": "v2.7.0",
   "local-path-provisioner": "v0.0.32",
-  "loki": "v3.6.2",
+  "loki": "v3.6.3",
   "metrics-server": "v0.8.0",
   "mimir": "mimir-3.0.1",
   "mod-gearman-worker-go": "v1.5.8",
@@ -45,5 +45,5 @@
   "testtool": "v2.1.14",
   "velero": "v1.17.1",
   "velero-plugin-for-aws": "v1.13.1",
-  "xray-core": "v25.12.2"
+  "xray-core": "v25.12.8"
 }
