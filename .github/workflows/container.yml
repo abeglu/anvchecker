@@ -43,7 +43,7 @@ jobs:
 
       - name: Create pull request
         if: ${{ env.NV }}
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: ${{ env.NV_COUNT }} container image updated
           branch: container_new_version
