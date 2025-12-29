@@ -1,5 +1,5 @@
 {
-  "alpine": "20250108",
+  "alpine": "20251224",
   "debian-latest": "13.2",
   "nginx": "1.29.4",
   "postgres": "18.1",
