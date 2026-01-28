@@ -1,6 +1,6 @@
 {
-  "alpine": "20251224",
-  "debian-latest": "13.2",
+  "alpine": "20260127",
+  "debian-latest": "13.3",
   "nginx": "1.29.4",
   "postgres": "18.1",
   "python-latest": "3.15-rc",
