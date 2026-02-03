@@ -1,9 +1,9 @@
 {
   "Thruk": "v3.24",
-  "alertmanager": "v0.30.1",
+  "alertmanager": "v0.31.0",
   "alloy": "v1.13.0-rc.2",
   "aptly": "v1.6.2",
-  "argocd": "v3.3.0-rc4",
+  "argocd": "v3.3.0",
   "cert-manager": "v1.20.0-alpha.1",
   "cloudnative-pg": "v1.28.0",
   "cluster-api": "v1.12.2",
@@ -18,7 +18,7 @@
   "kamaji": "v1.0.0",
   "kamaji-etcd": "v0.14.1",
   "keycloak": "26.5.2",
-  "kube-prometheus-stack": "kube-prometheus-stack-81.4.2",
+  "kube-prometheus-stack": "kube-prometheus-stack-81.4.3",
   "kubernetes-ingress": "v3.2.5",
   "lmd": "v2.7.0",
   "local-path-provisioner": "v0.0.34",
@@ -45,5 +45,5 @@
   "testtool": "v2.1.15",
   "velero": "v1.17.2",
   "velero-plugin-for-aws": "v1.13.2",
-  "xray-core": "v26.1.23"
+  "xray-core": "v26.2.2"
 }
