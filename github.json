@@ -20,9 +20,9 @@
   "keycloak": "26.5.2",
   "kube-prometheus-stack": "kube-prometheus-stack-81.5.0",
   "kubernetes-ingress": "v3.2.5",
-  "lmd": "v2.7.0",
+  "lmd": "v2.7.1",
   "local-path-provisioner": "v0.0.34",
-  "loki": "v3.6.4",
+  "loki": "v3.6.5",
   "metrics-server": "v0.8.1",
   "mimir": "mimir-3.0.2",
   "mod-gearman-worker-go": "v1.5.9",
@@ -45,5 +45,5 @@
   "testtool": "v2.1.15",
   "velero": "v1.17.2",
   "velero-plugin-for-aws": "v1.13.2",
-  "xray-core": "v26.2.4"
+  "xray-core": "v26.2.6"
 }
