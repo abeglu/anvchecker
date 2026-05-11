@@ -45,5 +45,5 @@
   "testtool": "v2.1.15",
   "velero": "v1.18.1-rc.2",
   "velero-plugin-for-aws": "v1.14.1-rc.1",
-  "xray-core": "v26.5.3"
+  "xray-core": "v26.5.9"
 }
