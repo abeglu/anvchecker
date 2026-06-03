@@ -19,7 +19,7 @@
   "kamaji-etcd": "v0.15.0",
   "keycloak": "26.6.2",
   "kube-prometheus-stack": "kube-prometheus-stack-86.1.0",
-  "kubernetes-ingress": "v3.2.9",
+  "kubernetes-ingress": "v3.2.10",
   "lmd": "v2.8.1",
   "local-path-provisioner": "v0.0.36",
   "loki": "v3.7.2",
@@ -45,5 +45,5 @@
   "testtool": "v2.2.0",
   "velero": "v1.18.1",
   "velero-plugin-for-aws": "v1.14.1",
-  "xray-core": "v26.5.9"
+  "xray-core": "v26.6.1"
 }
