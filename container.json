@@ -2,8 +2,8 @@
   "alpine": "20260127",
   "debian-latest": "13.5",
   "nginx": "1.31.1",
-  "postgres": "18.4",
+  "postgres": "19beta1",
   "python-latest": "3.15-rc",
-  "python-stable": "3.13.13",
+  "python-stable": "3.13.14",
   "ubuntu-latest": "26.04"
 }
