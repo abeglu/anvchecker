@@ -16,9 +16,9 @@
   "igvm": "v2.6.2",
   "ingress-nginx": "ingress-nginx-3.15.2",
   "kamaji": "v1.0.0",
-  "kamaji-etcd": "v0.16.0",
+  "kamaji-etcd": "v0.17.0",
   "keycloak": "26.7.0",
-  "kube-prometheus-stack": "kube-prometheus-stack-87.12.3",
+  "kube-prometheus-stack": "kube-prometheus-stack-87.15.1",
   "kubernetes-ingress": "v3.2.12",
   "lmd": "v2.8.2",
   "local-path-provisioner": "v0.0.36",
@@ -45,5 +45,5 @@
   "testtool": "v2.2.0",
   "velero": "v1.18.2",
   "velero-plugin-for-aws": "v1.14.2",
-  "xray-core": "v26.6.27"
+  "xray-core": "v26.7.11"
 }
