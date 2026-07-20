@@ -1,7 +1,7 @@
 {
   "Thruk": "v3.28",
   "alertmanager": "v0.33.1",
-  "alloy": "v1.18.0-rc.0",
+  "alloy": "v1.18.0",
   "aptly": "v1.6.3",
   "argocd": "v3.5.0-rc2",
   "cert-manager": "v1.21.0",
