@@ -6,7 +6,6 @@
   "cert-manager": "v1.21.0",
   "cloudnative-pg": "v1.30.0",
   "cluster-api": "v1.14.0-beta.1",
-  "cluster-api-addon-provider-helm": "v0.6.4",
   "cluster-api-operator": "v0.28.0",
   "cluster-api-provider-hetzner": "v1.1.7",
   "external-dns": "v0.21.0",
@@ -15,7 +14,7 @@
   "kamaji": "v1.0.0",
   "kamaji-etcd": "v0.17.0",
   "keycloak": "26.7.0",
-  "kube-prometheus-stack": "kube-prometheus-stack-87.19.1",
+  "kube-prometheus-stack": "kube-prometheus-stack-87.19.2",
   "kubernetes-ingress": "v3.2.12",
   "lmd": "v2.8.2",
   "local-path-provisioner": "v0.0.36",
@@ -35,5 +34,6 @@
   "tempo": "v3.0.2",
   "testtool": "v2.2.0",
   "velero": "v1.18.2",
+  "velero-plugin-for-aws": "v1.14.2",
   "xray-core": "v26.7.11"
 }
