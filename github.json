@@ -38,7 +38,7 @@
   "prometheus": "v3.13.2",
   "puppet": "8.10.0",
   "puppet-adminapi": "v1.2.1",
-  "rbac-manager": "v1.10.0",
+  "rbac-manager": "v1.10.2",
   "sealed-secrets": "v0.38.4",
   "serveradmin": "v4.26.0",
   "tempo": "v3.0.2",
