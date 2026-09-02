@@ -44,6 +44,6 @@
   "tempo": "v3.0.3",
   "testtool": "v2.2.0",
   "velero": "v1.18.3-rc.1",
-  "velero-plugin-for-aws": "v1.14.2",
+  "velero-plugin-for-aws": "v1.14.3-rc.1",
   "xray-core": "v26.7.28"
 }
