@@ -18,7 +18,7 @@
   "kamaji": "v1.0.0",
   "kamaji-etcd": "v0.17.0",
   "keycloak": "26.7.3",
-  "kube-prometheus-stack": "kube-prometheus-stack-88.6.2",
+  "kube-prometheus-stack": "kube-prometheus-stack-88.6.3",
   "kubernetes-ingress": "v3.2.14",
   "lmd": "v2.8.3",
   "local-path-provisioner": "v0.0.37",
