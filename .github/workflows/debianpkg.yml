@@ -21,14 +21,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      # - name: Install nvchecker
-      #   run: sudo apt-get update && sudo apt-get install -y nvchecker
-
       - name: Install nvchecker
-        uses: awalsh128/cache-apt-pkgs-action@latest
-        with:
-          packages: nvchecker
-          version: 2.19
+        run: sudo apt-get update && sudo apt-get install -y nvchecker
 
       - name: Check versions
         run: nvchecker -t 3 -c ./debianpkg.config.toml
