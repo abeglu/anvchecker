@@ -4,6 +4,6 @@
   "nginx": "1.31.8",
   "postgres": "19rc1",
   "python-latest": "3.16-rc",
-  "python-stable": "3.13.17",
+  "python-stable": "3.13.18",
   "ubuntu-latest": "26.10"
 }
