@@ -18,13 +18,13 @@
   "kamaji": "v1.0.0",
   "kamaji-etcd": "v0.18.1",
   "keycloak": "26.8.1",
-  "kube-prometheus-stack": "kube-prometheus-stack-92.16.1",
-  "kubernetes-ingress": "v3.2.18",
+  "kube-prometheus-stack": "kube-prometheus-stack-92.17.0",
+  "kubernetes-ingress": "v3.2.19",
   "lmd": "v2.9.1",
   "local-path-provisioner": "v0.0.37",
   "loki": "v3.7.9",
   "metrics-server": "v0.9.1",
-  "mimir": "mimir-3.2.3",
+  "mimir": "mimir-3.2.4",
   "mod-gearman-worker-go": "v1.7.3",
   "mod_gearman": "v5.2.6",
   "naemon-core": "v1.5.2",
@@ -45,5 +45,5 @@
   "testtool": "v2.3.0",
   "velero": "v1.18.4",
   "velero-plugin-for-aws": "v1.14.4",
-  "xray-core": "v26.10.29"
+  "xray-core": "v26.10.31"
 }
