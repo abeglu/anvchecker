@@ -1,16 +1,274 @@
 {
-  "alertmanager": "v0.34.2",
-  "alloy": "v1.21.3",
-  "argocd": "v3.6.1",
-  "cluster-api-addon-provider-helm": "v0.6.4",
-  "igvm": "v2.7.0",
-  "ingress-nginx": "ingress-nginx-3.15.2",
-  "kamaji": "v1.0.0",
-  "keycloak": "26.8.1",
-  "kube-prometheus-stack": "kube-prometheus-stack-92.18.0",
-  "mod_gearman": "v5.2.6",
-  "puppet": "8.10.0",
-  "puppet-adminapi": "v1.2.1",
-  "rbac-manager": "v1.10.2",
-  "xray-core": "v26.10.31"
+  "version": 2,
+  "data": {
+    "Thruk": {
+      "version": "v3.30",
+      "gitref": "refs/tags/v3.30",
+      "revision": "3a3335bcaee7da9e9056642a14f105fc0f468bbf",
+      "url": "https://github.com/sni/Thruk/releases/tag/v3.30"
+    },
+    "alertmanager": {
+      "version": "v0.34.2",
+      "gitref": "refs/tags/v0.34.2",
+      "revision": "828ea7d5a1b84ea3b41733c2a50d03a3b38d8257",
+      "url": "https://github.com/prometheus/alertmanager/releases/tag/v0.34.2"
+    },
+    "alloy": {
+      "version": "v1.22.0-rc.0",
+      "gitref": "refs/tags/v1.22.0-rc.0",
+      "revision": "a339583d1c6bf51997bf0e8ceff440be4946cfd3",
+      "url": "https://github.com/grafana/alloy/releases/tag/v1.22.0-rc.0"
+    },
+    "aptly": {
+      "version": "v1.6.3",
+      "gitref": "refs/tags/v1.6.3",
+      "revision": "69a22731ecde40b90d80178c1985e00ec3bda3b5",
+      "url": "https://github.com/aptly-dev/aptly/releases/tag/v1.6.3"
+    },
+    "argocd": {
+      "version": "v3.6.1",
+      "gitref": "refs/tags/v3.6.1",
+      "revision": "94037c4d4e1af4bd0651d37a179fbd9e347e668c",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.6.1"
+    },
+    "cert-manager": {
+      "version": "v1.21.3",
+      "gitref": "refs/tags/v1.21.3",
+      "revision": "ea04791b027b1ddd1884a02043ee8c9c097fc3ac",
+      "url": "https://github.com/cert-manager/cert-manager/releases/tag/v1.21.3"
+    },
+    "cloudnative-pg": {
+      "version": "v1.30.1",
+      "gitref": "refs/tags/v1.30.1",
+      "revision": "2a35abb4628f209d149825ef3c38011e0701ff2f",
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/tag/v1.30.1"
+    },
+    "cluster-api": {
+      "version": "v1.15.0-beta.0",
+      "gitref": "refs/tags/v1.15.0-beta.0",
+      "revision": "af03b826efd05e7803c07beb5a8e8e8dc24e1a66",
+      "url": "https://github.com/kubernetes-sigs/cluster-api/releases/tag/v1.15.0-beta.0"
+    },
+    "cluster-api-addon-provider-helm": {
+      "version": "v0.6.4",
+      "gitref": "refs/tags/v0.6.4",
+      "revision": "e268739ef56258c52a211550d8fda3dafa68c9b6",
+      "url": "https://github.com/kubernetes-sigs/cluster-api-addon-provider-helm/releases/tag/v0.6.4"
+    },
+    "cluster-api-operator": {
+      "version": "v0.30.0",
+      "gitref": "refs/tags/v0.30.0",
+      "revision": "91d2e8e8475c90d36f36c1456931b6824970532f",
+      "url": "https://github.com/kubernetes-sigs/cluster-api-operator/releases/tag/v0.30.0"
+    },
+    "cluster-api-provider-hetzner": {
+      "version": "v1.1.10",
+      "gitref": "refs/tags/v1.1.10",
+      "revision": "da5b9d1061d4926c2cc26ba85cfb338cdab41888",
+      "url": "https://github.com/syself/cluster-api-provider-hetzner/releases/tag/v1.1.10"
+    },
+    "external-dns": {
+      "version": "v0.24.0",
+      "gitref": "refs/tags/v0.24.0",
+      "revision": "c40894ac060e0920b2b49035df18005954f83a7a",
+      "url": "https://github.com/kubernetes-sigs/external-dns/releases/tag/v0.24.0"
+    },
+    "grafana": {
+      "version": "v13.3.0",
+      "gitref": "refs/tags/v13.3.0",
+      "revision": "f535ac00a44e8c3a5d2b8576b9f40b7df2df9b3d",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.3.0"
+    },
+    "harbor": {
+      "version": "v2.16.0-rc2",
+      "gitref": "refs/tags/v2.16.0-rc2",
+      "revision": "08cbdd0c8183c547339983a0e833d4ca6ede473c",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc2"
+    },
+    "igvm": {
+      "version": "v2.7.0",
+      "gitref": "refs/tags/v2.7.0",
+      "revision": "4398cf600c65400ad4d0d62827d194f7508122ff",
+      "url": "https://github.com/innogames/igvm/releases/tag/v2.7.0"
+    },
+    "ingress-nginx": {
+      "version": "ingress-nginx-3.15.2",
+      "gitref": "refs/tags/ingress-nginx-3.15.2",
+      "revision": "91d8c86964de7732bdbf30abb2abab7d5184e5a8",
+      "url": "https://github.com/kubernetes/ingress-nginx/releases/tag/ingress-nginx-3.15.2"
+    },
+    "kamaji": {
+      "version": "v1.0.0",
+      "gitref": "refs/tags/v1.0.0",
+      "revision": "f4c0cec4f9e689e1351297021b65e15870b7d7f4",
+      "url": "https://github.com/clastix/kamaji/releases/tag/v1.0.0"
+    },
+    "kamaji-etcd": {
+      "version": "v0.18.1",
+      "gitref": "refs/tags/v0.18.1",
+      "revision": "9ae287d09128066ba5d999129e9311aa5500e383",
+      "url": "https://github.com/clastix/kamaji-etcd/releases/tag/v0.18.1"
+    },
+    "keycloak": {
+      "version": "26.8.2",
+      "gitref": "refs/tags/26.8.2",
+      "revision": "e514445f9dcdabc5bdcf67cab56c1e49655de067",
+      "url": "https://github.com/keycloak/keycloak/releases/tag/26.8.2"
+    },
+    "kube-prometheus-stack": {
+      "version": "kube-prometheus-stack-92.22.0",
+      "gitref": "refs/tags/kube-prometheus-stack-92.22.0",
+      "revision": "5f5ec4f977f0aff43e1715d92872364c6ae46554",
+      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-92.22.0"
+    },
+    "kubernetes-ingress": {
+      "version": "v3.2.19",
+      "gitref": "refs/tags/v3.2.19",
+      "revision": "9ff90f8bee11d962de4612e074309dbf0ed827d5",
+      "url": "https://github.com/haproxytech/kubernetes-ingress/releases/tag/v3.2.19"
+    },
+    "lmd": {
+      "version": "v2.9.1",
+      "gitref": "refs/tags/v2.9.1",
+      "revision": "ffb7902ad23b0970a305bb890afe6f48b0f3ad01",
+      "url": "https://github.com/sni/lmd/releases/tag/v2.9.1"
+    },
+    "local-path-provisioner": {
+      "version": "v0.0.37",
+      "gitref": "refs/tags/v0.0.37",
+      "revision": "49b2be8e26d6d34c9afaa21fa33108d2e82f8955",
+      "url": "https://github.com/rancher/local-path-provisioner/releases/tag/v0.0.37"
+    },
+    "loki": {
+      "version": "v4.0.0-rc.2",
+      "gitref": "refs/tags/v4.0.0-rc.2",
+      "revision": "763769726bd5e0ba6046dc6a4ba9af5509febbb2",
+      "url": "https://github.com/grafana/loki/releases/tag/v4.0.0-rc.2"
+    },
+    "metrics-server": {
+      "version": "v0.9.1",
+      "gitref": "refs/tags/v0.9.1",
+      "revision": "33266a7802311861439a2a474abf0952824c5339",
+      "url": "https://github.com/kubernetes-sigs/metrics-server/releases/tag/v0.9.1"
+    },
+    "mimir": {
+      "version": "mimir-3.2.4",
+      "gitref": "refs/tags/mimir-3.2.4",
+      "url": "https://github.com/grafana/mimir/releases/tag/mimir-3.2.4"
+    },
+    "mod-gearman-worker-go": {
+      "version": "v1.7.3",
+      "gitref": "refs/tags/v1.7.3",
+      "revision": "528d0de2e65b8eb03fbfc1c07b2bbfbe94521aae",
+      "url": "https://github.com/ConSol-Monitoring/mod-gearman-worker-go/releases/tag/v1.7.3"
+    },
+    "naemon-core": {
+      "version": "v1.5.2",
+      "gitref": "refs/tags/v1.5.2",
+      "revision": "ef2980f6a697a03e1e5c91518829f6c191455458",
+      "url": "https://github.com/naemon/naemon-core/releases/tag/v1.5.2"
+    },
+    "naemon-livestatus": {
+      "version": "v1.5.1",
+      "gitref": "refs/tags/v1.5.1",
+      "revision": "d1f6de7c7ef49efa92d2a9d4cc0d6a095a1c6235",
+      "url": "https://github.com/naemon/naemon-livestatus/releases/tag/v1.5.1"
+    },
+    "nagios-plugins": {
+      "version": "2.4.8",
+      "gitref": "refs/tags/2.4.8",
+      "revision": "59df60163d7239984d4667fce157158b902dbdba",
+      "url": "https://github.com/nagios-plugins/nagios-plugins/releases/tag/2.4.8"
+    },
+    "nagioscore": {
+      "version": "4.2.1",
+      "gitref": "refs/tags/4.2.1",
+      "revision": "37ff339c8e13547e51fde2f736216ba6876b7742",
+      "url": "https://github.com/NagiosEnterprises/nagioscore/releases/tag/4.2.1"
+    },
+    "nrpe": {
+      "version": "nrpe-4.2.0",
+      "gitref": "refs/tags/nrpe-4.2.0",
+      "revision": "cf47f059637fe4ad23dd4a5f2612e2787ce7c09d",
+      "url": "https://github.com/NagiosEnterprises/nrpe/releases/tag/nrpe-4.2.0"
+    },
+    "nsca": {
+      "version": "nsca-2.10.3",
+      "gitref": "refs/tags/nsca-2.10.3",
+      "revision": "c259e1c08d866cb0920bb807d36a174cca15b249",
+      "url": "https://github.com/NagiosEnterprises/nsca/releases/tag/nsca-2.10.3"
+    },
+    "openbao": {
+      "version": "v2.7.2",
+      "gitref": "refs/tags/v2.7.2",
+      "revision": "9e0a0d3c3504a0a00b45e61355afac5e35c78379",
+      "url": "https://github.com/openbao/openbao/releases/tag/v2.7.2"
+    },
+    "prometheus": {
+      "version": "v3.16.0",
+      "gitref": "refs/tags/v3.16.0",
+      "revision": "289667affb175f9c4b55fcbdbb54aa081926da14",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.16.0"
+    },
+    "puppet": {
+      "version": "8.10.0",
+      "gitref": "refs/tags/8.10.0",
+      "revision": "789f600f634dfb4f4ec6e5011053a0dc20f8c3f7",
+      "url": "https://github.com/puppetlabs/puppet/releases/tag/8.10.0"
+    },
+    "puppet-adminapi": {
+      "version": "v1.2.1",
+      "gitref": "refs/tags/v1.2.1",
+      "revision": "8b5a54619e6583084d0cfc0324b1bcea305e5eb2",
+      "url": "https://github.com/innogames/puppet-adminapi/releases/tag/v1.2.1"
+    },
+    "rbac-manager": {
+      "version": "v1.10.2",
+      "gitref": "refs/tags/v1.10.2",
+      "revision": "ea9e59f729aa301d250ee6e5502257120438dd0e",
+      "url": "https://github.com/FairwindsOps/rbac-manager/releases/tag/v1.10.2"
+    },
+    "sealed-secrets": {
+      "version": "v0.41.2",
+      "gitref": "refs/tags/v0.41.2",
+      "revision": "51799eb6dd970239e356c1ccffd354fe74408700",
+      "url": "https://github.com/bitnami-labs/sealed-secrets/releases/tag/v0.41.2"
+    },
+    "serveradmin": {
+      "version": "v4.29.0",
+      "gitref": "refs/tags/v4.29.0",
+      "revision": "24f68014402171c9be366354802e585234c36580",
+      "url": "https://github.com/innogames/serveradmin/releases/tag/v4.29.0"
+    },
+    "tempo": {
+      "version": "v3.1.1",
+      "gitref": "refs/tags/v3.1.1",
+      "revision": "78f057d3c089f29205cce898c3ecb44102d794ff",
+      "url": "https://github.com/grafana/tempo/releases/tag/v3.1.1"
+    },
+    "testtool": {
+      "version": "v2.3.0",
+      "gitref": "refs/tags/v2.3.0",
+      "revision": "6d88b16216b83c64395d10dda165881548987470",
+      "url": "https://github.com/innogames/testtool/releases/tag/v2.3.0"
+    },
+    "velero": {
+      "version": "v1.19.0-rc.1",
+      "gitref": "refs/tags/v1.19.0-rc.1",
+      "revision": "9338d275bbeac8226023e6fc269b9608ec160928",
+      "url": "https://github.com/vmware-tanzu/velero/releases/tag/v1.19.0-rc.1"
+    },
+    "velero-plugin-for-aws": {
+      "version": "v1.15.0-rc.1",
+      "gitref": "refs/tags/v1.15.0-rc.1",
+      "revision": "bbb9bcdf6709aec46c78bb8d56b948a218690bae",
+      "url": "https://github.com/vmware-tanzu/velero-plugin-for-aws/releases/tag/v1.15.0-rc.1"
+    },
+    "xray-core": {
+      "version": "v26.10.31",
+      "gitref": "refs/tags/v26.10.31",
+      "revision": "a4a3dff5b20c2faae567b742c172c7b95e75c083",
+      "url": "https://github.com/xtls/xray-core/releases/tag/v26.10.31"
+    }
+  }
 }
