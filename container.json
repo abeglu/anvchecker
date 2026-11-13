@@ -1,9 +1,26 @@
 {
-  "alpine": "20260805",
-  "debian-latest": "13.7",
-  "nginx": "1.31.8",
-  "postgres": "19rc1",
-  "python-latest": "3.16-rc",
-  "python-stable": "3.13.18",
-  "ubuntu-latest": "26.10"
+  "version": 2,
+  "data": {
+    "alpine": {
+      "version": "20260805"
+    },
+    "debian-latest": {
+      "version": "13.7"
+    },
+    "nginx": {
+      "version": "1.31.8"
+    },
+    "postgres": {
+      "version": "19rc2"
+    },
+    "python-latest": {
+      "version": "3.16-rc"
+    },
+    "python-stable": {
+      "version": "3.13.18"
+    },
+    "ubuntu-latest": {
+      "version": "26.10"
+    }
+  }
 }
