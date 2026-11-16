@@ -169,16 +169,16 @@
       "url": "https://github.com/sni/mod_gearman/releases/tag/v5.2.6"
     },
     "naemon-core": {
-      "version": "v1.5.2",
-      "gitref": "refs/tags/v1.5.2",
-      "revision": "ef2980f6a697a03e1e5c91518829f6c191455458",
-      "url": "https://github.com/naemon/naemon-core/releases/tag/v1.5.2"
+      "version": "v1.6.0",
+      "gitref": "refs/tags/v1.6.0",
+      "revision": "22413056b38ed03d48735af4ce84a77934d716a0",
+      "url": "https://github.com/naemon/naemon-core/releases/tag/v1.6.0"
     },
     "naemon-livestatus": {
-      "version": "v1.5.1",
-      "gitref": "refs/tags/v1.5.1",
-      "revision": "d1f6de7c7ef49efa92d2a9d4cc0d6a095a1c6235",
-      "url": "https://github.com/naemon/naemon-livestatus/releases/tag/v1.5.1"
+      "version": "v1.6.0",
+      "gitref": "refs/tags/v1.6.0",
+      "revision": "06c3f3a063d21272ce28c0c5e6be9452283faf0c",
+      "url": "https://github.com/naemon/naemon-livestatus/releases/tag/v1.6.0"
     },
     "nagios-plugins": {
       "version": "2.4.8",
