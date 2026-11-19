@@ -2,10 +2,10 @@
   "version": 2,
   "data": {
     "Thruk": {
-      "version": "v3.30",
-      "gitref": "refs/tags/v3.30",
-      "revision": "3a3335bcaee7da9e9056642a14f105fc0f468bbf",
-      "url": "https://github.com/sni/Thruk/releases/tag/v3.30"
+      "version": "v3.32",
+      "gitref": "refs/tags/v3.32",
+      "revision": "da03d5a19e2328f93b0c92b2e9941a6691943dc8",
+      "url": "https://github.com/sni/Thruk/releases/tag/v3.32"
     },
     "alertmanager": {
       "version": "v0.35.0",
@@ -26,10 +26,10 @@
       "url": "https://github.com/aptly-dev/aptly/releases/tag/v1.6.3"
     },
     "argocd": {
-      "version": "v3.6.1",
-      "gitref": "refs/tags/v3.6.1",
-      "revision": "94037c4d4e1af4bd0651d37a179fbd9e347e668c",
-      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.6.1"
+      "version": "v3.6.2",
+      "gitref": "refs/tags/v3.6.2",
+      "revision": "8e8268ef2f3df99ca95663f5080fa6056f156805",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.6.2"
     },
     "cert-manager": {
       "version": "v1.21.3",
@@ -38,34 +38,34 @@
       "url": "https://github.com/cert-manager/cert-manager/releases/tag/v1.21.3"
     },
     "cloudnative-pg": {
-      "version": "v1.30.1",
-      "gitref": "refs/tags/v1.30.1",
-      "revision": "2a35abb4628f209d149825ef3c38011e0701ff2f",
-      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/tag/v1.30.1"
+      "version": "v1.30.2",
+      "gitref": "refs/tags/v1.30.2",
+      "revision": "30cca36d32328a78dc96c51db966ce629d5b72db",
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/tag/v1.30.2"
     },
     "cluster-api": {
-      "version": "v1.15.0-beta.0",
-      "gitref": "refs/tags/v1.15.0-beta.0",
-      "revision": "af03b826efd05e7803c07beb5a8e8e8dc24e1a66",
-      "url": "https://github.com/kubernetes-sigs/cluster-api/releases/tag/v1.15.0-beta.0"
+      "version": "v1.15.0-beta.1",
+      "gitref": "refs/tags/v1.15.0-beta.1",
+      "revision": "f73ee672441c117e60abf24bfc118a389e349a94",
+      "url": "https://github.com/kubernetes-sigs/cluster-api/releases/tag/v1.15.0-beta.1"
     },
     "cluster-api-addon-provider-helm": {
-      "version": "v0.6.4",
-      "gitref": "refs/tags/v0.6.4",
-      "revision": "e268739ef56258c52a211550d8fda3dafa68c9b6",
-      "url": "https://github.com/kubernetes-sigs/cluster-api-addon-provider-helm/releases/tag/v0.6.4"
+      "version": "v0.6.6",
+      "gitref": "refs/tags/v0.6.6",
+      "revision": "5fc90df594c01b441c1e67f776251a15bd2e1374",
+      "url": "https://github.com/kubernetes-sigs/cluster-api-addon-provider-helm/releases/tag/v0.6.6"
     },
     "cluster-api-operator": {
-      "version": "v0.30.0",
-      "gitref": "refs/tags/v0.30.0",
-      "revision": "91d2e8e8475c90d36f36c1456931b6824970532f",
-      "url": "https://github.com/kubernetes-sigs/cluster-api-operator/releases/tag/v0.30.0"
+      "version": "v0.30.1",
+      "gitref": "refs/tags/v0.30.1",
+      "revision": "4afc293cbfb235e019128fc501fda90773e0aea4",
+      "url": "https://github.com/kubernetes-sigs/cluster-api-operator/releases/tag/v0.30.1"
     },
     "cluster-api-provider-hetzner": {
-      "version": "v1.1.12",
-      "gitref": "refs/tags/v1.1.12",
-      "revision": "f7d841438c414f5f0e580ea3f8573b793777577c",
-      "url": "https://github.com/syself/cluster-api-provider-hetzner/releases/tag/v1.1.12"
+      "version": "v1.1.13",
+      "gitref": "refs/tags/v1.1.13",
+      "revision": "8b213e9a8f713c041c39d2b6818464a30d0af5a9",
+      "url": "https://github.com/syself/cluster-api-provider-hetzner/releases/tag/v1.1.13"
     },
     "external-dns": {
       "version": "v0.24.0",
@@ -86,10 +86,10 @@
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0"
     },
     "igvm": {
-      "version": "v2.7.1",
-      "gitref": "refs/tags/v2.7.1",
-      "revision": "bff9ef151cc5bf24c83335f46592c9b017297e91",
-      "url": "https://github.com/innogames/igvm/releases/tag/v2.7.1"
+      "version": "v2.7.2",
+      "gitref": "refs/tags/v2.7.2",
+      "revision": "47e8057a6073682f02d57148095255e935af2c59",
+      "url": "https://github.com/innogames/igvm/releases/tag/v2.7.2"
     },
     "ingress-nginx": {
       "version": "ingress-nginx-3.15.2",
@@ -116,16 +116,16 @@
       "url": "https://github.com/keycloak/keycloak/releases/tag/26.8.2"
     },
     "kube-prometheus-stack": {
-      "version": "kube-prometheus-stack-93.3.0",
-      "gitref": "refs/tags/kube-prometheus-stack-93.3.0",
-      "revision": "f7c2da805a5bf25a51ed10e6d9b73d6d83d3ce0f",
-      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-93.3.0"
+      "version": "kube-prometheus-stack-93.4.1",
+      "gitref": "refs/tags/kube-prometheus-stack-93.4.1",
+      "revision": "5c48f8950826a604c3700ee7e0464c98b1e42bac",
+      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-93.4.1"
     },
     "kubernetes-ingress": {
-      "version": "v3.4.0",
-      "gitref": "refs/tags/v3.4.0",
-      "revision": "1be40649e1f009cc973365b4af85ddee3f67afcc",
-      "url": "https://github.com/haproxytech/kubernetes-ingress/releases/tag/v3.4.0"
+      "version": "v3.4.1",
+      "gitref": "refs/tags/v3.4.1",
+      "revision": "703bfbcf96a3841192d89241c6e7c6191a82c1f8",
+      "url": "https://github.com/haproxytech/kubernetes-ingress/releases/tag/v3.4.1"
     },
     "lmd": {
       "version": "v2.9.1",
@@ -152,9 +152,9 @@
       "url": "https://github.com/kubernetes-sigs/metrics-server/releases/tag/v0.9.1"
     },
     "mimir": {
-      "version": "mimir-3.2.5",
-      "gitref": "refs/tags/mimir-3.2.5",
-      "url": "https://github.com/grafana/mimir/releases/tag/mimir-3.2.5"
+      "version": "mimir-3.2.6",
+      "gitref": "refs/tags/mimir-3.2.6",
+      "url": "https://github.com/grafana/mimir/releases/tag/mimir-3.2.6"
     },
     "mod-gearman-worker-go": {
       "version": "v1.7.3",
@@ -163,10 +163,10 @@
       "url": "https://github.com/ConSol-Monitoring/mod-gearman-worker-go/releases/tag/v1.7.3"
     },
     "mod_gearman": {
-      "version": "v5.2.6",
-      "gitref": "refs/tags/v5.2.6",
-      "revision": "980a0f3547a367c6b7aa37e38969f94984de5917",
-      "url": "https://github.com/sni/mod_gearman/releases/tag/v5.2.6"
+      "version": "v5.3.0",
+      "gitref": "refs/tags/v5.3.0",
+      "revision": "fc279086b1888593b25394579ac00812e780722a",
+      "url": "https://github.com/sni/mod_gearman/releases/tag/v5.3.0"
     },
     "naemon-core": {
       "version": "v1.6.0",
@@ -247,10 +247,10 @@
       "url": "https://github.com/bitnami-labs/sealed-secrets/releases/tag/v0.41.2"
     },
     "serveradmin": {
-      "version": "v4.29.0",
-      "gitref": "refs/tags/v4.29.0",
-      "revision": "24f68014402171c9be366354802e585234c36580",
-      "url": "https://github.com/innogames/serveradmin/releases/tag/v4.29.0"
+      "version": "v4.30.0",
+      "gitref": "refs/tags/v4.30.0",
+      "revision": "efa0b4b969cb971a7e818b8dc08d03a828b36dc1",
+      "url": "https://github.com/innogames/serveradmin/releases/tag/v4.30.0"
     },
     "tempo": {
       "version": "v3.1.1",
@@ -265,16 +265,16 @@
       "url": "https://github.com/innogames/testtool/releases/tag/v2.3.0"
     },
     "velero": {
-      "version": "v1.19.0-rc.1",
-      "gitref": "refs/tags/v1.19.0-rc.1",
-      "revision": "9338d275bbeac8226023e6fc269b9608ec160928",
-      "url": "https://github.com/vmware-tanzu/velero/releases/tag/v1.19.0-rc.1"
+      "version": "v1.19.0-rc.2",
+      "gitref": "refs/tags/v1.19.0-rc.2",
+      "revision": "037f46918b63b9d4141e4051a22380802c2d615a",
+      "url": "https://github.com/vmware-tanzu/velero/releases/tag/v1.19.0-rc.2"
     },
     "velero-plugin-for-aws": {
-      "version": "v1.15.0-rc.1",
-      "gitref": "refs/tags/v1.15.0-rc.1",
-      "revision": "bbb9bcdf6709aec46c78bb8d56b948a218690bae",
-      "url": "https://github.com/vmware-tanzu/velero-plugin-for-aws/releases/tag/v1.15.0-rc.1"
+      "version": "v1.15.0-rc.2",
+      "gitref": "refs/tags/v1.15.0-rc.2",
+      "revision": "442932ab8e2c35c462ffa5ccda0c6c4e4575723c",
+      "url": "https://github.com/vmware-tanzu/velero-plugin-for-aws/releases/tag/v1.15.0-rc.2"
     },
     "xray-core": {
       "version": "v26.11.9",
