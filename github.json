@@ -116,10 +116,10 @@
       "url": "https://github.com/keycloak/keycloak/releases/tag/26.8.2"
     },
     "kube-prometheus-stack": {
-      "version": "kube-prometheus-stack-93.7.0",
-      "gitref": "refs/tags/kube-prometheus-stack-93.7.0",
-      "revision": "6b1807a40a47399325eb5276a894338b6d7c32c5",
-      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-93.7.0"
+      "version": "kube-prometheus-stack-93.9.0",
+      "gitref": "refs/tags/kube-prometheus-stack-93.9.0",
+      "revision": "b3bf5d3e5b3341d3f85cb89df78f5cb8a244062d",
+      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-93.9.0"
     },
     "kubernetes-ingress": {
       "version": "v3.4.1",
@@ -265,16 +265,16 @@
       "url": "https://github.com/innogames/testtool/releases/tag/v2.3.0"
     },
     "velero": {
-      "version": "v1.19.0-rc.2",
-      "gitref": "refs/tags/v1.19.0-rc.2",
+      "version": "v1.19.0",
+      "gitref": "refs/tags/v1.19.0",
       "revision": "037f46918b63b9d4141e4051a22380802c2d615a",
-      "url": "https://github.com/vmware-tanzu/velero/releases/tag/v1.19.0-rc.2"
+      "url": "https://github.com/vmware-tanzu/velero/releases/tag/v1.19.0"
     },
     "velero-plugin-for-aws": {
-      "version": "v1.15.0-rc.2",
-      "gitref": "refs/tags/v1.15.0-rc.2",
-      "revision": "442932ab8e2c35c462ffa5ccda0c6c4e4575723c",
-      "url": "https://github.com/vmware-tanzu/velero-plugin-for-aws/releases/tag/v1.15.0-rc.2"
+      "version": "v1.15.0",
+      "gitref": "refs/tags/v1.15.0",
+      "revision": "d0dbfec3a637b14532a47fd37c196b51c99c6d13",
+      "url": "https://github.com/vmware-tanzu/velero-plugin-for-aws/releases/tag/v1.15.0"
     },
     "xray-core": {
       "version": "v26.11.9",
