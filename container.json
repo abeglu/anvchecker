@@ -5,7 +5,7 @@
       "version": "20260805"
     },
     "debian-latest": {
-      "version": "13.7"
+      "version": "13.8"
     },
     "nginx": {
       "version": "1.31.10"
