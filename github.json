@@ -8,10 +8,10 @@
       "url": "https://github.com/sni/Thruk/releases/tag/v3.32"
     },
     "alertmanager": {
-      "version": "v0.35.0",
-      "gitref": "refs/tags/v0.35.0",
-      "revision": "f3b525da0c84bd38fb19e0541746763fcb6ff284",
-      "url": "https://github.com/prometheus/alertmanager/releases/tag/v0.35.0"
+      "version": "v0.35.1",
+      "gitref": "refs/tags/v0.35.1",
+      "revision": "9d97f1f0d99992514c9f7e9bb6e790facde88550",
+      "url": "https://github.com/prometheus/alertmanager/releases/tag/v0.35.1"
     },
     "alloy": {
       "version": "v1.22.0",
@@ -26,28 +26,28 @@
       "url": "https://github.com/aptly-dev/aptly/releases/tag/v1.6.3"
     },
     "argocd": {
-      "version": "v3.6.2",
-      "gitref": "refs/tags/v3.6.2",
-      "revision": "8e8268ef2f3df99ca95663f5080fa6056f156805",
-      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.6.2"
+      "version": "v3.6.3",
+      "gitref": "refs/tags/v3.6.3",
+      "revision": "b4accc482028fd529b3e4508ef9f28977b552b50",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.6.3"
     },
     "cert-manager": {
-      "version": "v1.21.3",
-      "gitref": "refs/tags/v1.21.3",
-      "revision": "ea04791b027b1ddd1884a02043ee8c9c097fc3ac",
-      "url": "https://github.com/cert-manager/cert-manager/releases/tag/v1.21.3"
+      "version": "v1.22.0-alpha.0",
+      "gitref": "refs/tags/v1.22.0-alpha.0",
+      "revision": "f1b67ee716bfff26a7b201d729c5ad90b5fa0dc3",
+      "url": "https://github.com/cert-manager/cert-manager/releases/tag/v1.22.0-alpha.0"
     },
     "cloudnative-pg": {
-      "version": "v1.30.2",
-      "gitref": "refs/tags/v1.30.2",
-      "revision": "30cca36d32328a78dc96c51db966ce629d5b72db",
-      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/tag/v1.30.2"
+      "version": "v1.31.0-rc1",
+      "gitref": "refs/tags/v1.31.0-rc1",
+      "revision": "1a61c1ac9f8d18b31857a6ad874bd2021ae4309c",
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/tag/v1.31.0-rc1"
     },
     "cluster-api": {
-      "version": "v1.15.0-beta.1",
-      "gitref": "refs/tags/v1.15.0-beta.1",
-      "revision": "f73ee672441c117e60abf24bfc118a389e349a94",
-      "url": "https://github.com/kubernetes-sigs/cluster-api/releases/tag/v1.15.0-beta.1"
+      "version": "v1.15.0-rc.0",
+      "gitref": "refs/tags/v1.15.0-rc.0",
+      "revision": "312e6d130ee6664acf3823ddadb8e70c91901e0c",
+      "url": "https://github.com/kubernetes-sigs/cluster-api/releases/tag/v1.15.0-rc.0"
     },
     "cluster-api-addon-provider-helm": {
       "version": "v0.6.6",
@@ -74,10 +74,10 @@
       "url": "https://github.com/kubernetes-sigs/external-dns/releases/tag/v0.24.0"
     },
     "grafana": {
-      "version": "v13.3.1",
-      "gitref": "refs/tags/v13.3.1",
-      "revision": "e8dedc1e3b79f85173a8a1ee6a93153c9092dd45",
-      "url": "https://github.com/grafana/grafana/releases/tag/v13.3.1"
+      "version": "v13.3.2",
+      "gitref": "refs/tags/v13.3.2",
+      "revision": "be2055857ec27be8ac5a440ff483d6a6fb129aaf",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.3.2"
     },
     "harbor": {
       "version": "v2.16.0",
@@ -116,10 +116,10 @@
       "url": "https://github.com/keycloak/keycloak/releases/tag/26.8.2"
     },
     "kube-prometheus-stack": {
-      "version": "kube-prometheus-stack-93.9.0",
-      "gitref": "refs/tags/kube-prometheus-stack-93.9.0",
-      "revision": "b3bf5d3e5b3341d3f85cb89df78f5cb8a244062d",
-      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-93.9.0"
+      "version": "kube-prometheus-stack-93.11.0",
+      "gitref": "refs/tags/kube-prometheus-stack-93.11.0",
+      "revision": "3f68901bd3f38354b391a64e2c4ce0aed6938486",
+      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-93.11.0"
     },
     "kubernetes-ingress": {
       "version": "v3.4.1",
@@ -128,10 +128,10 @@
       "url": "https://github.com/haproxytech/kubernetes-ingress/releases/tag/v3.4.1"
     },
     "lmd": {
-      "version": "v2.9.1",
-      "gitref": "refs/tags/v2.9.1",
-      "revision": "ffb7902ad23b0970a305bb890afe6f48b0f3ad01",
-      "url": "https://github.com/sni/lmd/releases/tag/v2.9.1"
+      "version": "v2.9.2",
+      "gitref": "refs/tags/v2.9.2",
+      "revision": "fff97760161a91b1430976991351aca65e2a239b",
+      "url": "https://github.com/sni/lmd/releases/tag/v2.9.2"
     },
     "local-path-provisioner": {
       "version": "v0.0.37",
@@ -235,10 +235,10 @@
       "url": "https://github.com/innogames/puppet-adminapi/releases/tag/v1.2.1"
     },
     "rbac-manager": {
-      "version": "v1.10.2",
-      "gitref": "refs/tags/v1.10.2",
-      "revision": "ea9e59f729aa301d250ee6e5502257120438dd0e",
-      "url": "https://github.com/FairwindsOps/rbac-manager/releases/tag/v1.10.2"
+      "version": "v1.10.4",
+      "gitref": "refs/tags/v1.10.4",
+      "revision": "98b144a50daf5c650e5cada577064789038e3947",
+      "url": "https://github.com/FairwindsOps/rbac-manager/releases/tag/v1.10.4"
     },
     "sealed-secrets": {
       "version": "v0.41.2",
