@@ -116,10 +116,10 @@
       "url": "https://github.com/keycloak/keycloak/releases/tag/26.8.2"
     },
     "kube-prometheus-stack": {
-      "version": "kube-prometheus-stack-93.11.0",
-      "gitref": "refs/tags/kube-prometheus-stack-93.11.0",
-      "revision": "3f68901bd3f38354b391a64e2c4ce0aed6938486",
-      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-93.11.0"
+      "version": "kube-prometheus-stack-94.0.0",
+      "gitref": "refs/tags/kube-prometheus-stack-94.0.0",
+      "revision": "f26b37e6ecb3bdf178e64e87e53abf82165665aa",
+      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-94.0.0"
     },
     "kubernetes-ingress": {
       "version": "v3.4.1",
