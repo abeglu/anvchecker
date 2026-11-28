@@ -116,10 +116,10 @@
       "url": "https://github.com/keycloak/keycloak/releases/tag/26.8.2"
     },
     "kube-prometheus-stack": {
-      "version": "kube-prometheus-stack-94.0.0",
-      "gitref": "refs/tags/kube-prometheus-stack-94.0.0",
-      "revision": "f26b37e6ecb3bdf178e64e87e53abf82165665aa",
-      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-94.0.0"
+      "version": "kube-prometheus-stack-94.2.0",
+      "gitref": "refs/tags/kube-prometheus-stack-94.2.0",
+      "revision": "a43379349fe79e74ce8b6910cc4b9049a725f829",
+      "url": "https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus-stack-94.2.0"
     },
     "kubernetes-ingress": {
       "version": "v3.4.1",
@@ -128,10 +128,10 @@
       "url": "https://github.com/haproxytech/kubernetes-ingress/releases/tag/v3.4.1"
     },
     "lmd": {
-      "version": "v2.9.2",
-      "gitref": "refs/tags/v2.9.2",
-      "revision": "fff97760161a91b1430976991351aca65e2a239b",
-      "url": "https://github.com/sni/lmd/releases/tag/v2.9.2"
+      "version": "v2.9.3",
+      "gitref": "refs/tags/v2.9.3",
+      "revision": "58f808eb01882039d8e17e1b9e420ec4af62d385",
+      "url": "https://github.com/sni/lmd/releases/tag/v2.9.3"
     },
     "local-path-provisioner": {
       "version": "v0.0.37",
@@ -140,10 +140,10 @@
       "url": "https://github.com/rancher/local-path-provisioner/releases/tag/v0.0.37"
     },
     "loki": {
-      "version": "v4.0.0-rc.4",
-      "gitref": "refs/tags/v4.0.0-rc.4",
-      "revision": "aa49ce12fdd7e64aa20fe8fb177eaf57f817d857",
-      "url": "https://github.com/grafana/loki/releases/tag/v4.0.0-rc.4"
+      "version": "v4.0.0-rc.6",
+      "gitref": "refs/tags/v4.0.0-rc.6",
+      "revision": "1e98faf1f4861d57793ec5d418019e91157af306",
+      "url": "https://github.com/grafana/loki/releases/tag/v4.0.0-rc.6"
     },
     "metrics-server": {
       "version": "v0.9.1",
@@ -247,10 +247,10 @@
       "url": "https://github.com/bitnami-labs/sealed-secrets/releases/tag/v0.41.2"
     },
     "serveradmin": {
-      "version": "v4.30.0",
-      "gitref": "refs/tags/v4.30.0",
-      "revision": "efa0b4b969cb971a7e818b8dc08d03a828b36dc1",
-      "url": "https://github.com/innogames/serveradmin/releases/tag/v4.30.0"
+      "version": "v4.31.0",
+      "gitref": "refs/tags/v4.31.0",
+      "revision": "5a42711db3d70264af54df33b391063fe7fab2d9",
+      "url": "https://github.com/innogames/serveradmin/releases/tag/v4.31.0"
     },
     "tempo": {
       "version": "v3.1.1",
